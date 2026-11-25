@@ -1,0 +1,1092 @@
+G:\Documents\GitHub\dreamhost_zone_exporter>python dreamhost_zone_exporter.py
+
+API key:2THD4K95NGJZSNDL
+
+#  -------------------------------------------------- Account: 432173 --------------------------------------------------
+#  .................................................. Zone: 1-800-paypercall.com ..................................................
+$ORIGIN 1-800-paypercall.com
+$TTL 600s
+ssh.1-800-paypercall.com.      IN A      208.97.137.126                 ;
+www.1-800-paypercall.com.      IN A      208.97.137.126                 ;
+1-800-paypercall.com.          IN A      208.97.137.126                 ;
+ftp.1-800-paypercall.com.      IN A      208.97.137.126                 ;
+#  .................................................. Zone: 1-800-remodel.com ..................................................
+$ORIGIN 1-800-remodel.com
+$TTL 600s
+www.post.1-800-remodel.com.    IN A      208.97.137.126                 ;
+ssh.test.1-800-remodel.com.    IN A      208.97.137.126                 ;
+ftp.test.1-800-remodel.com.    IN A      208.97.137.126                 ;
+www.1-800-remodel.com.         IN A      208.97.137.126                 ;
+ssh.1-800-remodel.com.         IN A      208.97.137.126                 ;
+post.1-800-remodel.com.        IN A      208.97.137.126                 ;
+ftp.1-800-remodel.com.         IN A      208.97.137.126                 ;
+1-800-remodel.com.             IN A      208.97.137.126                 ;
+1-800-remodel.com.             IN MX     0 ASPMX.L.GOOGLE.COM.          ;
+test.1-800-remodel.com.        IN A      208.97.137.126                 ;
+ftp.post.1-800-remodel.com.    IN A      208.97.137.126                 ;
+www.test.1-800-remodel.com.    IN A      208.97.137.126                 ;
+ssh.post.1-800-remodel.com.    IN A      208.97.137.126                 ;
+#  .................................................. Zone: 1-800remodel.com ..................................................
+$ORIGIN 1-800remodel.com
+$TTL 600s
+ssh.1-800remodel.com.          IN A      208.97.137.126                 ;
+1-800remodel.com.              IN A      208.97.137.126                 ;
+1-800remodel.com.              IN MX     0 ASPMX.L.GOOGLE.COM.          ;
+www.1-800remodel.com.          IN A      208.97.137.126                 ;
+ftp.1-800remodel.com.          IN A      208.97.137.126                 ;
+#  .................................................. Zone: 1800findacar.com ..................................................
+$ORIGIN 1800findacar.com
+$TTL 600s
+_autodiscover._tcp.1800findacar.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+mailboxes.1800findacar.com.    IN A      69.163.136.97                  ;
+ssh.1800findacar.com.          IN A      208.97.137.126                 ;
+1800findacar.com.              IN A      208.97.137.126                 ;
+1800findacar.com.              IN MX     0 mx1.mailchannels.net.        ;
+1800findacar.com.              IN MX     0 mx2.mailchannels.net.        ;
+1800findacar.com.              IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+webmail.1800findacar.com.      IN A      69.163.136.138                 ;
+ftp.1800findacar.com.          IN A      208.97.137.126                 ;
+dreamhost._domainkey.1800findacar.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArZbN0OhsveKdzrOgteCNEDrqkaEfnOaSxgBYEoc5idxqGf6Kc1ysML+0HavycffV4HjIAkEUt91LUBpbZBZOV+nyolowUdLvX4gHBjOMr2qFNLBSeSzg9q5WoPhAHG3ZQ4SwaBF7Zw6QO/W4Pqn9WkctiWi2ZKLLX43uJlrXKC+/iJrjtkIQnDF1mfSN7zZ8CijJCCZX2wbZVrBf8y+S6ZC9CGdAuNSiTd5kIy+ebtF7lzKUFo8W/ovMkne1Oo6i+BdKKqQl0XniwoutZ6ywPN1QFpGSaBra6+1L+AGZEGV1cMZBXgYflzefP21sU+ARZIStrB/vNJRND/QImkNNHQIDAQAB ;
+www.1800findacar.com.          IN A      208.97.137.126                 ;
+www.mailboxes.1800findacar.com. IN A      69.163.136.97                  ;
+www.webmail.1800findacar.com.  IN A      69.163.136.138                 ;
+mail.1800findacar.com.         IN A      64.90.62.162                   ;
+mail.1800findacar.com.         IN MX     0 mx1.mailchannels.net.        ;
+mail.1800findacar.com.         IN MX     0 mx2.mailchannels.net.        ;
+autoconfig.1800findacar.com.   IN CNAME  autoconfig.dreamhost.com       ;
+#  .................................................. Zone: 1800growhair.com ..................................................
+$ORIGIN 1800growhair.com
+$TTL 600s
+www.1800growhair.com.          IN A      208.97.137.126                 ;
+1800growhair.com.              IN A      208.97.137.126                 ;
+ftp.1800growhair.com.          IN A      208.97.137.126                 ;
+ssh.1800growhair.com.          IN A      208.97.137.126                 ;
+#  .................................................. Zone: 1800loanrates.com ..................................................
+$ORIGIN 1800loanrates.com
+$TTL 600s
+dreamhost._domainkey.1800loanrates.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsP11ZBowNTsUmwinXwq/Jx5SZ0fnfGDcfWcNMOrsHCYZd6UjYfJsB4RLCWMSEsO5yqZlpjb2NxnpCmBXK15OXtTSB64dboiXlDYSTf2ualy2PdN+z7g/syQmMwOWkl7RX1yMA3SVyrQV8yTleAOPKW2h8PSyxj4IhQkglIRiDdpVw8LOmSlt7ZZZo7elkcGQUenqRND2i51KefuV/f4mB2AnQieFY5B+6aTfVSL9BOhNlBaExfa1l4MYYr7CXGok+Sbavg19pMzbJ5JTD34TX39lTv+hDxvRe0ANMIdvmmZo67f0H1QCln58XaP8LvhYXo2ez6o6t3k5KXbuay75ZQIDAQAB ;
+www.mailboxes.1800loanrates.com. IN A      69.163.136.97                  ;
+www.1800loanrates.com.         IN CNAME  www116.wixdns.net              ;
+mail.1800loanrates.com.        IN A      64.90.62.162                   ;
+mail.1800loanrates.com.        IN MX     0 mx1.dreamhost.com.           ;
+mail.1800loanrates.com.        IN MX     0 mx2.dreamhost.com.           ;
+www.webmail.1800loanrates.com. IN A      69.163.136.138                 ;
+www.registration.1800loanrates.com. IN A      208.97.137.126                 ;
+autoconfig.1800loanrates.com.  IN CNAME  autoconfig.dreamhost.com       ;
+ssh.registration.1800loanrates.com. IN A      208.97.137.126                 ;
+_autodiscover._tcp.1800loanrates.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+ftp.registration.1800loanrates.com. IN A      208.97.137.126                 ;
+mailboxes.1800loanrates.com.   IN A      69.163.136.97                  ;
+registration.1800loanrates.com. IN A      208.97.137.126                 ;
+1800loanrates.com.             IN A      23.236.62.147                  ;
+1800loanrates.com.             IN MX     0 mx1.dreamhost.com.           ;
+1800loanrates.com.             IN MX     0 mx2.dreamhost.com.           ;
+1800loanrates.com.             IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+webmail.1800loanrates.com.     IN A      69.163.136.138                 ;
+#  .................................................. Zone: 1800paypercall.co ..................................................
+$ORIGIN 1800paypercall.co
+$TTL 600s
+1800paypercall.co.             IN A      208.97.137.126                 ;
+1800paypercall.co.             IN MX     0 mx1.mailchannels.net.        ;
+1800paypercall.co.             IN MX     0 mx2.mailchannels.net.        ;
+1800paypercall.co.             IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+webmail.1800paypercall.co.     IN A      69.163.136.138                 ;
+ftp.1800paypercall.co.         IN A      208.97.137.126                 ;
+ssh.1800paypercall.co.         IN A      208.97.137.126                 ;
+mailboxes.1800paypercall.co.   IN A      69.163.136.97                  ;
+_autodiscover._tcp.1800paypercall.co. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+autoconfig.1800paypercall.co.  IN CNAME  autoconfig.dreamhost.com       ;
+www.webmail.1800paypercall.co. IN A      69.163.136.138                 ;
+mail.1800paypercall.co.        IN A      64.90.62.162                   ;
+mail.1800paypercall.co.        IN MX     0 mx1.mailchannels.net.        ;
+mail.1800paypercall.co.        IN MX     0 mx2.mailchannels.net.        ;
+www.1800paypercall.co.         IN A      208.97.137.126                 ;
+_dmarc.1800paypercall.co.      IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@1800paypercall.co ;
+www.mailboxes.1800paypercall.co. IN A      69.163.136.97                  ;
+dreamhost._domainkey.1800paypercall.co. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy60jX6VtoPMsgGDKgb26q0m+dKzB336j2I1wLBgxXIt67PRCw3ySo38RtZ+YhbQvJIRXDg5iiUTP42EKkaqwwpFYzA96qd4TiicctzNDYJc7Lj9QerFwnD9QOWcNXW+Ju8t/6Y+uw3wpoo+Iif+eTmju37Suee512h4WJNtk4fFj/gajybGyKgsy2rs3YuISFaFnIy1r9YPS9S+CSn13RU1p1tkAlvwlJM9+CAifCuLNX4w8E4DvL5HZjUfhsQ5g/TVcHTIeowT0kCG3E7Ot2qLlU2EJvzdR4H78KJrspHVxdO8R2R/N/YHZ0LIuDu8Tp1ttxh+gl+httB1g05aPQwIDAQAB ;
+#  .................................................. Zone: 1800paypercall.com ..................................................
+$ORIGIN 1800paypercall.com
+$TTL 600s
+ssh.backend.1800paypercall.com. IN A      208.97.137.126                 ;
+www.marketing.1800paypercall.com. IN A      208.97.137.126                 ;
+ftp.docs.1800paypercall.com.   IN A      208.97.137.126                 ;
+dreamhost._domainkey.marketing.1800paypercall.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzaUhiTF0b+22WLpD3KnHQjShJAnyzTzJP4QUaX5Xeo6ifBEtrTIW/oVQPdxz4+lXUkZh6KHfX21NYLbiYlBda0Yg2Ll0/nH5jXewmm+wplOnreXwt35fVsPVqfeSkX/zsuAc9gXaj1DYk2VL6zvmoKWUVxBbi2uesnIqwC8ALA0JHIn4IdZxM6uhyqEyLEwqOPO02j6ted6xdEz3s8J+4rXmI9d51I1bMYDP+Z1Et7PPvlhmc9RCoKKcu3vGPX/a9vs9qlsqfJhCmTtJIKA7+DHgw5W+dPZxsLMQThgEtZtssn2NomZWPC4qrzdbuf4V+JuXL5XDIFLCpu4BlkI2CwIDAQAB ;
+1800paypercall.com.            IN A      23.236.62.147                  ;
+1800paypercall.com.            IN MX     0 aspmx.l.google.com.          ;
+1800paypercall.com.            IN TXT    v=spf1 include:_spf.google.com ~all ;
+webmail.marketing.1800paypercall.com. IN A      69.163.136.138                 ;
+mysql.1800paypercall.com.      IN A      208.97.137.126                 ;
+google._domainkey.1800paypercall.com. IN TXT    v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2Y0KWkN4BwZSaQyDYqw12aFujx8NJoeRu/MYN+PLkMISpezBoIpfaPNU/sWSBiemcZooUqd4DAxuUNc1ajCOEN61X/UEzAPwZZdrxVkQkI3wrZN/b/J4dpwwDHoWDXZkSr2jKtK2eO/E2t0gkfIiOA5NX7XwjnSq6t1h3dr1ydl+7BUYpKQ3EYjOYVlrtdZVBeX8goQmpgdyYmilTfv6DsugMh9QjtxucB96qPAR7nFtQx6leLhxffmCyahcdIVJsHJX74/MpsRwraWQcRkjCPG17ZtLhomf/yMPXoj2wFpv6fnA+R4VvgX3WSKoDH0W+O6kw9dD+m9kBqr5mkzchwIDAQAB ;
+www.mailboxes.marketing.1800paypercall.com. IN A      69.163.136.97                  ;
+_dmarc.1800paypercall.com.     IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@1800paypercall.com ;
+www.1800paypercall.com.        IN CNAME  www116.wixdns.net.             ;
+marketing.1800paypercall.com.  IN A      208.97.137.126                 ;
+marketing.1800paypercall.com.  IN MX     0 mx1.mailchannels.net.        ;
+marketing.1800paypercall.com.  IN MX     0 mx2.mailchannels.net.        ;
+server.1800paypercall.com.     IN A      216.108.225.62                 ;
+docs.1800paypercall.com.       IN A      208.97.137.126                 ;
+www.webmail.marketing.1800paypercall.com. IN A      69.163.136.138                 ;
+mailboxes.marketing.1800paypercall.com. IN A      69.163.136.97                  ;
+www.docs.1800paypercall.com.   IN A      208.97.137.126                 ;
+ftp.marketing.1800paypercall.com. IN A      208.97.137.126                 ;
+ftp.backend.1800paypercall.com. IN A      208.97.137.126                 ;
+mail.marketing.1800paypercall.com. IN A      64.90.62.162                   ;
+mail.marketing.1800paypercall.com. IN MX     0 mx1.mailchannels.net.        ;
+mail.marketing.1800paypercall.com. IN MX     0 mx2.mailchannels.net.        ;
+backend.1800paypercall.com.    IN A      208.97.137.126                 ;
+m.1800paypercall.com.          IN CNAME  www116.wixdns.net.             ;
+ssh.docs.1800paypercall.com.   IN A      208.97.137.126                 ;
+_autodiscover._tcp.marketing.1800paypercall.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+www.backend.1800paypercall.com. IN A      208.97.137.126                 ;
+lp.1800paypercall.com.         IN CNAME  pageserver.instapage.com.      ;
+demo.1800paypercall.com.       IN A      216.108.225.62                 ;
+ssh.marketing.1800paypercall.com. IN A      208.97.137.126                 ;
+autoconfig.marketing.1800paypercall.com. IN CNAME  autoconfig.dreamhost.com       ;
+#  .................................................. Zone: 1800payperclick.com ..................................................
+$ORIGIN 1800payperclick.com
+$TTL 600s
+www.1800payperclick.com.       IN A      208.97.137.126                 ;
+1800payperclick.com.           IN A      208.97.137.126                 ;
+1800payperclick.com.           IN MX     0 aspmx.l.google.com.          ;
+ftp.1800payperclick.com.       IN A      208.97.137.126                 ;
+docs.1800payperclick.com.      IN CNAME  ghs.googlehosted.com.          ;
+start.1800payperclick.com.     IN CNAME  ghs.googlehosted.com.          ;
+sites.1800payperclick.com.     IN CNAME  ghs.googlehosted.com.          ;
+calendar.1800payperclick.com.  IN CNAME  ghs.googlehosted.com.          ;
+ssh.1800payperclick.com.       IN A      208.97.137.126                 ;
+mail.1800payperclick.com.      IN CNAME  ghs.googlehosted.com.          ;
+#  .................................................. Zone: 1800payperclose.com ..................................................
+$ORIGIN 1800payperclose.com
+$TTL 600s
+1800payperclose.com.           IN A      208.97.137.126                 ;
+1800payperclose.com.           IN MX     0 aspmx.l.google.com.          ;
+start.1800payperclose.com.     IN CNAME  ghs.googlehosted.com.          ;
+docs.1800payperclose.com.      IN CNAME  ghs.googlehosted.com.          ;
+ftp.1800payperclose.com.       IN A      208.97.137.126                 ;
+calendar.1800payperclose.com.  IN CNAME  ghs.googlehosted.com.          ;
+sites.1800payperclose.com.     IN CNAME  ghs.googlehosted.com.          ;
+mail.1800payperclose.com.      IN CNAME  ghs.googlehosted.com.          ;
+ssh.1800payperclose.com.       IN A      208.97.137.126                 ;
+www.1800payperclose.com.       IN A      208.97.137.126                 ;
+google3183276f0df98c13.1800payperclose.com. IN CNAME  google.com.                    ;
+#  .................................................. Zone: 1800remodel.co ..................................................
+$ORIGIN 1800remodel.co
+$TTL 600s
+_autodiscover._tcp.1800remodel.co. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+mailboxes.1800remodel.co.      IN A      69.163.136.97                  ;
+ssh.1800remodel.co.            IN A      208.97.137.126                 ;
+ftp.1800remodel.co.            IN A      208.97.137.126                 ;
+webmail.1800remodel.co.        IN A      69.163.136.138                 ;
+1800remodel.co.                IN A      208.97.137.126                 ;
+1800remodel.co.                IN MX     0 mx1.mailchannels.net.        ;
+1800remodel.co.                IN MX     0 mx2.mailchannels.net.        ;
+1800remodel.co.                IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+email.1800remodel.co.          IN CNAME  1800remodel.activehosted.com   ;
+dreamhost._domainkey.1800remodel.co. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwzJyGeNBnxL3UK2SL5/LBMuamc1Jy0C1YZERiAXJ7RTrspdGF03d1Mq/SsFrjl52XJJAIEh1Zq1Ruzb+YtIb02FIELB8GZyhNXQ50pznu4Lj7Njhq8WgDdZPCVZlt5R73TT6lDj/Pumjs9oXjk/GdZOzmkfMN2p0jxe8ca6EcmRVXAqEWb6IKb3xgjMsZPYnhoovkSQ5qYYjN8ghCmNUhpYAzEmsTReAQ8n62gydvDC5Cm1+h4AQJx4snAfyu1EV8TtqLKOxM3IGhANo+inWuj+3VrpYzlS2gVQB3Xe2ofUAahuDTR/cUk2CcwToXVayBtV8RBhVxdbMtKlBsFfRcQIDAQAB ;
+_dmarc.1800remodel.co.         IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@1800remodel.co ;
+www.mailboxes.1800remodel.co.  IN A      69.163.136.97                  ;
+www.1800remodel.co.            IN A      208.97.137.126                 ;
+mail.1800remodel.co.           IN A      64.90.62.162                   ;
+mail.1800remodel.co.           IN MX     0 mx1.mailchannels.net.        ;
+mail.1800remodel.co.           IN MX     0 mx2.mailchannels.net.        ;
+www.webmail.1800remodel.co.    IN A      69.163.136.138                 ;
+autoconfig.1800remodel.co.     IN CNAME  autoconfig.dreamhost.com       ;
+#  .................................................. Zone: 1800remodel.com ..................................................
+$ORIGIN 1800remodel.com
+$TTL 600s
+contractors.1800remodel.com.   IN A      208.97.137.126                 ;
+contractors.1800remodel.com.   IN MX     0 mx1.mailchannels.net.        ;
+contractors.1800remodel.com.   IN MX     0 mx2.mailchannels.net.        ;
+ftp.staging.1800remodel.com.   IN A      208.97.137.126                 ;
+ssh.supervisors.1800remodel.com. IN A      208.97.137.126                 ;
+dreamhost._domainkey.groups.1800remodel.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApBdplWGkNDLZ9nrVBxcXdnEFqKi+hsB45nzvl3OtMp4ZkWSiy+tw66SIuy9hCONlk30MKIMfOGsHL8FxLc2XT4Zj54y750I58AIY5wJsUC0OF5maieApclIO9V6AhGvdX/AOKiJFoJYaEsiSu3RHL50fx7Vh4J5zxOsWft4cb7vht0W8/oBwwN9etHFgTlkhzI+K/6j7ZUvKeLVLapMWDANlXWwQBkIpc7Htg1thr8/xNPLmfaHIkNXG3xqP33BDpYhv3uSqoVjQ9qYUVS6x2+dxmBL/HEMrH/YyOtcB88+Igybb3kUtZZCHdnAfbkhUGXwYoDT1fd5K9Z6t3AQotwIDAQAB ;
+mail.post.1800remodel.com.     IN A      64.90.62.162                   ;
+mail.post.1800remodel.com.     IN MX     0 mx1.dreamhost.com.           ;
+mail.post.1800remodel.com.     IN MX     0 mx2.dreamhost.com.           ;
+www.admin.1800remodel.com.     IN A      208.97.137.126                 ;
+ftp.test.1800remodel.com.      IN A      208.97.137.126                 ;
+autoconfig.post.1800remodel.com. IN CNAME  autoconfig.dreamhost.com       ;
+www.mailboxes.email.1800remodel.com. IN A      69.163.136.97                  ;
+ssh.lp1.1800remodel.com.       IN A      208.97.137.126                 ;
+ssh.recordings.1800remodel.com. IN A      208.97.137.126                 ;
+www.mailboxes.reporting.1800remodel.com. IN A      69.163.136.97                  ;
+hd.1800remodel.com.            IN A      208.97.137.126                 ;
+ssh.reporting2.1800remodel.com. IN A      208.97.137.126                 ;
+ssh.mantisbt.1800remodel.com.  IN A      208.97.137.126                 ;
+mysql.new.1800remodel.com.     IN A      208.97.137.126                 ;
+www.mailboxes.at.1800remodel.com. IN A      69.163.136.97                  ;
+www.1800remodel.com.           IN CNAME  cdn.webflow.com                ;
+flexi.1800remodel.com.         IN A      172.31.8.55                    ;
+www.dev72.1800remodel.com.     IN A      208.97.137.126                 ;
+www.mailboxes.contractors.1800remodel.com. IN A      69.163.136.97                  ;
+_autodiscover._tcp.admin.1800remodel.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+mailboxes.reporting.1800remodel.com. IN A      69.163.136.97                  ;
+ftp.legacy.1800remodel.com.    IN A      208.97.137.126                 ;
+dreamhost._domainkey.at.1800remodel.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvpBFXyz4CtDGBZmkts/Scja+ajndH+S5yMo3Z6ip5T74lr/JQOpIOEIm1ho0PsSWXPJqOiGpsNUCSn0A777uALDnt4F09hontPu+bWLs3mBN9R2oEdgmdtDaOqhs0jbz2RfKZ4fQ4uL1D14yp/sdTKflQCNP0jGyahssoEzpdSp00LexWz1U6/Ltr5N0wgrtxdmYFozF1kDno4ak3I+BWa/lqWjjNk2q8E3IrquSA4X5zUZpDu3ie+X21mtIVWrFs/nRbYr9y3dpB78GAto51nE7bAOPEzyfypnqH/tAKUTfwPFK3joceuIWJOUzECGL9JzluCaT0iF/xqTi45adXQIDAQAB ;
+webmail.mantisbt.1800remodel.com. IN A      69.163.136.138                 ;
+ftp.new.1800remodel.com.       IN A      208.97.137.126                 ;
+ssh.hd.1800remodel.com.        IN A      208.97.137.126                 ;
+www.sos.1800remodel.com.       IN A      208.97.137.126                 ;
+mantisbt.1800remodel.com.      IN A      208.97.137.126                 ;
+mantisbt.1800remodel.com.      IN MX     0 mx1.mailchannels.net.        ;
+mantisbt.1800remodel.com.      IN MX     0 mx2.mailchannels.net.        ;
+mantisbt.1800remodel.com.      IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+ftp.webhooks.1800remodel.com.  IN A      208.97.137.126                 ;
+ssh.marketing.1800remodel.com. IN A      208.97.137.126                 ;
+ssh.lp2.1800remodel.com.       IN A      208.97.137.126                 ;
+dev56.1800remodel.com.         IN A      208.97.137.126                 ;
+supervisors.1800remodel.com.   IN A      208.97.137.126                 ;
+ssh.old.1800remodel.com.       IN A      208.97.137.126                 ;
+realsavings.1800remodel.com.   IN CNAME  deals-external-custom-03-2101013454.us-west-2.elb.amazonaws.com ;
+ssh.at.1800remodel.com.        IN A      208.97.137.126                 ;
+lp2.1800remodel.com.           IN A      208.97.137.126                 ;
+site.1800remodel.com.          IN A      208.97.137.126                 ;
+www.mailboxes.mantisbt.1800remodel.com. IN A      69.163.136.97                  ;
+mailboxes.at.1800remodel.com.  IN A      69.163.136.97                  ;
+lp1.1800remodel.com.           IN A      208.97.137.126                 ;
+dev72.1800remodel.com.         IN A      208.97.137.126                 ;
+ftp.contractors.1800remodel.com. IN A      208.97.137.126                 ;
+_autodiscover._tcp.contractors.1800remodel.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+hw.1800remodel.com.            IN A      205.237.194.70                 ;
+ftp.training.1800remodel.com.  IN A      208.97.137.126                 ;
+autoconfig.at.1800remodel.com. IN CNAME  autoconfig.dreamhost.com       ;
+old.1800remodel.com.           IN A      208.97.137.126                 ;
+ssh.dev72.1800remodel.com.     IN A      208.97.137.126                 ;
+autoconfig.mantisbt.1800remodel.com. IN CNAME  autoconfig.dreamhost.com       ;
+reporting2.1800remodel.com.    IN A      208.97.137.126                 ;
+mailboxes.contractors.1800remodel.com. IN A      69.163.136.97                  ;
+www.mantisbt.1800remodel.com.  IN A      208.97.137.126                 ;
+mail.admin.1800remodel.com.    IN A      64.90.62.162                   ;
+mail.admin.1800remodel.com.    IN MX     0 mx1.dreamhost.com.           ;
+mail.admin.1800remodel.com.    IN MX     0 mx2.dreamhost.com.           ;
+www.reporting2.1800remodel.com. IN A      208.97.137.126                 ;
+www.webmail.mantisbt.1800remodel.com. IN A      69.163.136.138                 ;
+ftp.dev56.1800remodel.com.     IN A      208.97.137.126                 ;
+mailboxes.post.1800remodel.com. IN A      69.163.136.97                  ;
+www.lp1.1800remodel.com.       IN A      208.97.137.126                 ;
+lp.1800remodel.com.            IN CNAME  pageserver.instapage.com.      ;
+www.recordings.1800remodel.com. IN A      208.97.137.126                 ;
+ftp.groups.1800remodel.com.    IN A      208.97.137.126                 ;
+ftp.lp3.1800remodel.com.       IN A      208.97.137.126                 ;
+dreamhost._domainkey.contractors.1800remodel.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxTS+Wz6YhqW7Z0Tpnbn/57L/JuxviGJKP2q4q/1TvKhRVbUum2i6aQapOgxMNG1hhjvvlhQbdel9ZJxYBd246fSd0J41y4uuIEIYYS60+kNrANAriJSIGF5Y00VSHBOFf0jLnXof6MCdYSAaCDWTXNPRaXrcJsVNY6d7ZrpddDM5tfNwykntp5eYaqzXOzaEevgg7jRfskObz20utxvkfYifHl3SSfXGYd1gpxvFSOjbeMUkL64m+zpPWKgL6wm619atJ1/IgEpxWFuW++r+cC7MIcUBXMqWTTyB4kMu+tiLTuiaQWN35vnuKWy1QmYRwGaeVKnkgLHrkuxGliT/xQIDAQAB ;
+autoconfig.groups.1800remodel.com. IN CNAME  autoconfig.dreamhost.com       ;
+ssh.admin.1800remodel.com.     IN A      208.97.137.126                 ;
+ftp.agents.1800remodel.com.    IN A      208.97.137.126                 ;
+mail.at.1800remodel.com.       IN A      64.90.62.162                   ;
+mail.at.1800remodel.com.       IN MX     0 mx1.dreamhost.com.           ;
+mail.at.1800remodel.com.       IN MX     0 mx2.dreamhost.com.           ;
+google._domainkey.1800remodel.com. IN TXT    v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsz9a0h0sCEEV/8dnF7yz3nXewpqD86WMnC2XHhaQi6XMvdEajl0nxQtrkMTIhNoYj3x6LROLVliGt3rwNfUfGboKmQRGRAsEiHOBMEj17I66IyF1mOtQHd6vW7qG/sg0vE/0mETGNC8kQCrbWprp/tY5pKHdwz4IbsMcYrvYIaQ4DwfOTvtc9KgAnnsajIElISRNDDIVzf7vLiRYLP39OlNhjFFpniIgqojr+OXcuYI/Jaa9Yg531NjIgtoIke/1Pljng7UIH+4ZpxABx10kqep2V5/TdTsDd0RwzUA/3ve0+KwaJQcxIyRTyghbgCepOW7T6hUM2z+BDoUTg0bB7QIDAQAB ;
+pages.1800remodel.com.         IN A      208.97.137.126                 ;
+www.supervisors.1800remodel.com. IN A      208.97.137.126                 ;
+marketing.1800remodel.com.     IN A      208.97.137.126                 ;
+marketing.1800remodel.com.     IN MX     0 mx1.dreamhost.com.           ;
+marketing.1800remodel.com.     IN MX     0 mx2.dreamhost.com.           ;
+marketing.1800remodel.com.     IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+ftp.send.1800remodel.com.      IN A      208.97.137.126                 ;
+ftp.reporting.1800remodel.com. IN A      208.97.137.126                 ;
+_autodiscover._tcp.at.1800remodel.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+lp3.1800remodel.com.           IN A      208.97.137.126                 ;
+staging.1800remodel.com.       IN A      208.97.137.126                 ;
+mailboxes.email.1800remodel.com. IN A      69.163.136.97                  ;
+post.1800remodel.com.          IN A      208.97.138.169                 ;
+post.1800remodel.com.          IN MX     0 mx1.dreamhost.com.           ;
+post.1800remodel.com.          IN MX     0 mx2.dreamhost.com.           ;
+post.1800remodel.com.          IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+autoconfig.contractors.1800remodel.com. IN CNAME  autoconfig.dreamhost.com       ;
+_autodiscover._tcp.marketing.1800remodel.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+www.at.1800remodel.com.        IN A      208.97.137.126                 ;
+webmail.contractors.1800remodel.com. IN A      69.163.136.138                 ;
+ftp.pages.1800remodel.com.     IN A      208.97.137.126                 ;
+ftp.safestreets.1800remodel.com. IN A      208.97.137.126                 ;
+www.old.1800remodel.com.       IN A      208.97.137.126                 ;
+ftp.site.1800remodel.com.      IN A      208.97.137.126                 ;
+www.lp2.1800remodel.com.       IN A      208.97.137.126                 ;
+www.marketing.1800remodel.com. IN A      208.97.137.126                 ;
+ftp.post.1800remodel.com.      IN A      208.97.138.169                 ;
+_autodiscover._tcp.groups.1800remodel.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+1800remodel.com.               IN A      198.202.211.1                  ;
+1800remodel.com.               IN MX     0 aspmx.l.google.com.          ;
+1800remodel.com.               IN TXT    activeprospect-domain-verification=4mhogymfmvrZ6WXe84ZfIg== ;
+1800remodel.com.               IN TXT    google-site-verification=8SHytRFyDpTMKwhwvMgOlUG2g68-w2RzdeZd_BRz3vE ;
+1800remodel.com.               IN TXT    v=spf1 include:_spf.google.com ~all ;
+admin.1800remodel.com.         IN A      208.97.137.126                 ;
+admin.1800remodel.com.         IN MX     0 mx1.dreamhost.com.           ;
+admin.1800remodel.com.         IN MX     0 mx2.dreamhost.com.           ;
+admin.1800remodel.com.         IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+www.hd.1800remodel.com.        IN A      208.97.137.126                 ;
+ssh.sos.1800remodel.com.       IN A      208.97.137.126                 ;
+ftp.ha.1800remodel.com.        IN A      208.97.137.126                 ;
+www.webmail.post.1800remodel.com. IN A      69.163.136.138                 ;
+autoconfig.email.1800remodel.com. IN CNAME  autoconfig.dreamhost.com       ;
+mailboxes.marketing.1800remodel.com. IN A      69.163.136.97                  ;
+www.pages.1800remodel.com.     IN A      208.97.137.126                 ;
+mail.mantisbt.1800remodel.com. IN A      64.90.62.162                   ;
+mail.mantisbt.1800remodel.com. IN MX     0 mx1.mailchannels.net.        ;
+mail.mantisbt.1800remodel.com. IN MX     0 mx2.mailchannels.net.        ;
+ftp.at.1800remodel.com.        IN A      208.97.137.126                 ;
+www.safestreets.1800remodel.com. IN A      208.97.137.126                 ;
+autoconfig.admin.1800remodel.com. IN CNAME  autoconfig.dreamhost.com       ;
+sos.1800remodel.com.           IN A      208.97.137.126                 ;
+ssh.contractors.1800remodel.com. IN A      208.97.137.126                 ;
+reporting.1800remodel.com.     IN A      208.97.137.126                 ;
+reporting.1800remodel.com.     IN MX     0 mx1.dreamhost.com.           ;
+reporting.1800remodel.com.     IN MX     0 mx2.dreamhost.com.           ;
+reporting.1800remodel.com.     IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+webmail.at.1800remodel.com.    IN A      69.163.136.138                 ;
+ssh.legacy.1800remodel.com.    IN A      208.97.137.126                 ;
+webhooks.1800remodel.com.      IN A      208.97.137.126                 ;
+ftp.hd.1800remodel.com.        IN A      208.97.137.126                 ;
+mail.groups.1800remodel.com.   IN A      64.90.62.162                   ;
+mail.groups.1800remodel.com.   IN MX     0 mx1.dreamhost.com.           ;
+mail.groups.1800remodel.com.   IN MX     0 mx2.dreamhost.com.           ;
+ssh.new.1800remodel.com.       IN A      208.97.137.126                 ;
+www.ha.1800remodel.com.        IN A      208.97.137.126                 ;
+www.mailboxes.marketing.1800remodel.com. IN A      69.163.136.97                  ;
+_autodiscover._tcp.mantisbt.1800remodel.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+_a7d91481556b03ab35256deedcdba7a8.realsavings.1800remodel.com. IN CNAME  _fe342b24f54dfa113595b79c15e5d966.jkddzztszm.acm-validations.aws ;
+mailboxes.groups.1800remodel.com. IN A      69.163.136.97                  ;
+ssh.webhooks.1800remodel.com.  IN A      208.97.137.126                 ;
+ftp.lp2.1800remodel.com.       IN A      208.97.137.126                 ;
+www.site.1800remodel.com.      IN A      208.97.137.126                 ;
+ftp.old.1800remodel.com.       IN A      208.97.137.126                 ;
+www.post.1800remodel.com.      IN A      208.97.138.169                 ;
+safestreets.1800remodel.com.   IN A      208.97.137.126                 ;
+ftp.marketing.1800remodel.com. IN A      208.97.137.126                 ;
+ftp.lp1.1800remodel.com.       IN A      208.97.137.126                 ;
+mail.marketing.1800remodel.com. IN A      64.90.62.162                   ;
+mail.marketing.1800remodel.com. IN MX     0 mx1.dreamhost.com.           ;
+mail.marketing.1800remodel.com. IN MX     0 mx2.dreamhost.com.           ;
+ftp.recordings.1800remodel.com. IN A      208.97.137.126                 ;
+status.1800remodel.com.        IN CNAME  stats.uptimerobot.com          ;
+febouwud2z5r.1800remodel.com.  IN CNAME  gv-tozyxlcfgjskls.dv.googlehosted.com ;
+www.webmail.admin.1800remodel.com. IN A      69.163.136.138                 ;
+em-3967119.email.1800remodel.com. IN CNAME  cmd.emsend1.com                ;
+www.groups.1800remodel.com.    IN A      208.97.137.126                 ;
+ftp.mantisbt.1800remodel.com.  IN A      208.97.137.126                 ;
+www.dev56.1800remodel.com.     IN A      208.97.137.126                 ;
+ftp.reporting2.1800remodel.com. IN A      208.97.137.126                 ;
+mail.reporting.1800remodel.com. IN A      64.90.62.162                   ;
+mail.reporting.1800remodel.com. IN MX     0 mx1.dreamhost.com.           ;
+mail.reporting.1800remodel.com. IN MX     0 mx2.dreamhost.com.           ;
+webmail.groups.1800remodel.com. IN A      69.163.136.138                 ;
+www.webmail.reporting.1800remodel.com. IN A      69.163.136.138                 ;
+www.training.1800remodel.com.  IN A      208.97.137.126                 ;
+www.webmail.email.1800remodel.com. IN A      69.163.136.138                 ;
+autoconfig.marketing.1800remodel.com. IN CNAME  autoconfig.dreamhost.com       ;
+www.reporting.1800remodel.com. IN A      208.97.137.126                 ;
+www.mailboxes.admin.1800remodel.com. IN A      69.163.136.97                  ;
+ssh.staging.1800remodel.com.   IN A      208.97.137.126                 ;
+mail.contractors.1800remodel.com. IN A      64.90.62.162                   ;
+mail.contractors.1800remodel.com. IN MX     0 mx1.mailchannels.net.        ;
+mail.contractors.1800remodel.com. IN MX     0 mx2.mailchannels.net.        ;
+webmail.marketing.1800remodel.com. IN A      69.163.136.138                 ;
+www.send.1800remodel.com.      IN A      208.97.137.126                 ;
+ftp.supervisors.1800remodel.com. IN A      208.97.137.126                 ;
+training.1800remodel.com.      IN A      208.97.137.126                 ;
+at.1800remodel.com.            IN A      208.97.137.126                 ;
+at.1800remodel.com.            IN MX     0 mx1.dreamhost.com.           ;
+at.1800remodel.com.            IN MX     0 mx2.dreamhost.com.           ;
+at.1800remodel.com.            IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+www.agents.1800remodel.com.    IN A      208.97.137.126                 ;
+email.1800remodel.com.         IN MX     0 mx1.dreamhost.com.           ;
+email.1800remodel.com.         IN MX     0 mx2.dreamhost.com.           ;
+dreamhost._domainkey.email.1800remodel.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp2Pm0Tk89r4gm/i/CR+52SUHxB1dCy0VENaEtqOexY5S/mdvzAEjkvuAgeMp8ZKA+7Ro52yUmct2AAz2CusuH933Xsj+R0Igia42+HIXUX7gcIbS/w8d8ZbI/GGjvrVUm0JlLFnfN/kxJcaWXcqmU2Dkc6/tx7KXsCO79T8uynvT/HVaZrgjCvt6XX/ATIC41Thqu5xHKi8hG3swS3tZKd0yvzbsH+xLAgKYGL8NVtE4IfItCMbI0XecZ6UcfyB22sL1C7dRBrLeaOQvR/f0HtZSW+rsIRbBJI9IvKEYNsrMhyT1SIE1gDDBGOMsUL4xAV2qMSh6MQqiI/kRYXFduwIDAQAB ;
+www.lp3.1800remodel.com.       IN A      208.97.137.126                 ;
+ssh.test.1800remodel.com.      IN A      208.97.137.126                 ;
+www.mailboxes.post.1800remodel.com. IN A      69.163.136.97                  ;
+mail.email.1800remodel.com.    IN A      64.90.62.162                   ;
+mail.email.1800remodel.com.    IN MX     0 mx1.dreamhost.com.           ;
+mail.email.1800remodel.com.    IN MX     0 mx2.dreamhost.com.           ;
+ssh.post.1800remodel.com.      IN A      208.97.138.169                 ;
+ssh.site.1800remodel.com.      IN A      208.97.137.126                 ;
+dreamhost._domainkey.mantisbt.1800remodel.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA46Xy+hyorJrMiDHO4qJR5ZxBucbfla7+F9LDKYRlHJ4iSFK+piqhL/OgZApvCLqSggYF7QTWEwI13OrPVOgp42x/dxDyhKcbamreHo3j3oTwmBuBX7ekm8p9XXiyG9/gcp8FSji48s7awF1u9j7MoyTlSXsL6wYkQKkBD4xLG0xmVbYbWsX47kHbqt8ekeNkgKoqS7fa1U2Smo0QQD67M5uUpEqMrEsLKf3ht25EBNJ2nchIjzi1sHg99BKYWf8rQP76jAmAIm6BHbyKcBbikOhooXP0YBNWpZB/M1Rt9lIxZsCNGDenEfL4AM+UHZfnUctdc26ipNLwHMENU3SLRQIDAQAB ;
+dreamhost._domainkey.admin.1800remodel.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwb8vOS2V0dn0XLRsmCIxS9QwzZCRAEMhp3vNkM70zzWkVL7eho4wFDPygLS3wOGHKsoi5vK206h6VNKKxQFWG5zi8bogZhT5/iEcNnz94N5NJI3oK/oz0tPTvQvppwqhSUtgbPmBeTTFrxBiMktat50dB+07w6nOtq1IQ5MmfX44p4KEsaJUmFARAZLT30u5gGv740w40laTqQJs2TCZvado7YiPo+0cNGMqc14F9QqFKk0LQjDgTP4K1wL1eW278rV7ZEf2P8btl9EkMXdexIcD499h9kjsIwTg5/2ci+CCr6MNPElvGLVOJLk8ltwxzRa8k2NZXWfuj1nrhEze2wIDAQAB ;
+send.1800remodel.com.          IN A      208.97.137.126                 ;
+www.webhooks.1800remodel.com.  IN A      208.97.137.126                 ;
+ssh.ha.1800remodel.com.        IN A      208.97.137.126                 ;
+www.new.1800remodel.com.       IN A      208.97.137.126                 ;
+ftp.sos.1800remodel.com.       IN A      208.97.137.126                 ;
+mail.1800remodel.com.          IN CNAME  ghs.googlehosted.com.          ;
+www.legacy.1800remodel.com.    IN A      208.97.137.126                 ;
+acdkim2._domainkey.email.1800remodel.com. IN CNAME  dkim.acdkim2.acems1.com        ;
+test.1800remodel.com.          IN A      208.97.137.126                 ;
+webmail.email.1800remodel.com. IN A      69.163.136.138                 ;
+agents.1800remodel.com.        IN A      208.97.137.126                 ;
+www.contractors.1800remodel.com. IN A      208.97.137.126                 ;
+www.webmail.at.1800remodel.com. IN A      69.163.136.138                 ;
+ssh.safestreets.1800remodel.com. IN A      208.97.137.126                 ;
+autoconfig.reporting.1800remodel.com. IN CNAME  autoconfig.dreamhost.com       ;
+www.mailboxes.groups.1800remodel.com. IN A      69.163.136.97                  ;
+www.webmail.marketing.1800remodel.com. IN A      69.163.136.138                 ;
+ssh.pages.1800remodel.com.     IN A      208.97.137.126                 ;
+mailboxes.admin.1800remodel.com. IN A      69.163.136.97                  ;
+www.test.1800remodel.com.      IN A      208.97.137.126                 ;
+ssh.lp3.1800remodel.com.       IN A      208.97.137.126                 ;
+new.1800remodel.com.           IN A      208.97.137.126                 ;
+ftp.admin.1800remodel.com.     IN A      208.97.137.126                 ;
+ssh.agents.1800remodel.com.    IN A      208.97.137.126                 ;
+groups.1800remodel.com.        IN A      208.97.137.126                 ;
+groups.1800remodel.com.        IN MX     0 mx1.dreamhost.com.           ;
+groups.1800remodel.com.        IN MX     0 mx2.dreamhost.com.           ;
+groups.1800remodel.com.        IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+mailboxes.mantisbt.1800remodel.com. IN A      69.163.136.97                  ;
+dreamhost._domainkey.post.1800remodel.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq8sWfJxiYkVOyPzxUrbI0RJLzn+ubJr7FDgO12yiK/KGNZpT3Wbsd1MACcsGbXj+dV0duXBG2VLr8+U7QbmsR3iYnmct764TnnAJk7RodJKbxdxB5H1KkWzcgWp7bqBjcGHjd7hGJ/tBKBYYj0KfOTL+jeFXtzB23OQv1HbKCDPJOvPH07dGxi3pbt4vWDRHWZzHE3rvNtf1394XOD1/5R+Q4YJIRdpOcCoOujg3whSdYXx9P2JizAjYmFyPwMhI2t8N1ksAPhZOl/uux/sTiYGw24jNT7S5ypN8UgzLV/5IjB95VisqSxgC3FiCXF8idWzd0TJYqubnIbjFfJOiwwIDAQAB ;
+webmail.reporting.1800remodel.com. IN A      69.163.136.138                 ;
+ha.1800remodel.com.            IN A      208.97.137.126                 ;
+ssh.send.1800remodel.com.      IN A      208.97.137.126                 ;
+webmail.admin.1800remodel.com. IN A      69.163.136.138                 ;
+webmail.post.1800remodel.com.  IN A      69.163.136.138                 ;
+dreamhost._domainkey.reporting.1800remodel.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuR+tAT95u4XCMLXuSOsbpnMaSrkXpEOXy+/hfv7Tn8EDIApPFN0yBxyQjGwOa1Avw0FG5L30QU3b+umwMQRCJuTV3WDtOZDX2A+IuMNBeDGAXsJlp00rM+yHGR5c7GHnlcDaVWwWWfSh24jtsecUYvACjjZiKAHDYciZJhupvIAoFZi5cXQTNUS1o0Uby68kcDvVA0zF+KS7Y1wvL1sOoCTmrrqwdjO3N+QcmbjdBitjGUqMyxiPF8e1P5j69qFF56WICL+LE4flUWoJ6DMPy20B6ACElTMBf6tW1/QcVmcglrl1QVNIz/5hYLxhSAXuBwr6M4iGCZsAxeYZvtRyPQIDAQAB ;
+www.staging.1800remodel.com.   IN A      208.97.137.126                 ;
+ssh.reporting.1800remodel.com. IN A      208.97.137.126                 ;
+ftp.dev72.1800remodel.com.     IN A      208.97.137.126                 ;
+_autodiscover._tcp.reporting.1800remodel.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+ssh.training.1800remodel.com.  IN A      208.97.137.126                 ;
+acdkim1._domainkey.email.1800remodel.com. IN CNAME  dkim.acdkim1.acems1.com        ;
+_autodiscover._tcp.post.1800remodel.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+recordings.1800remodel.com.    IN A      208.97.137.126                 ;
+dreamhost._domainkey.marketing.1800remodel.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwnoyxBr0LVwdFlgiTKCe/nU9Z5I211LpLffQxJngFwqNXpqEkUNKzpM4jhbygD8dFiupBn0cd2Q3HLyHtzPCQgf0I4WN5rlXjcqIaDtZwoyz5AmpH5Lyn9TaHME01vf7lNuNTH1S1DKK0+a5EUFr6OAfv75eg40IEDT6DsyQRlkJw5AHD9XVHRc21VoSF9NdanRxhZmKhsXEU0n08hYMyd+bjjXhmfuDogu8MsCgqNIkcnvUenbobI/ykmOeB0JKNF85I8PilwaMaeT0aEjwXRkDaFcWDIrK5SsELzHJlHN84Ycdf2e8lcNQJpWiAGAMqrcb39MAPCiTpl9lOaiT7wIDAQAB ;
+www.webmail.groups.1800remodel.com. IN A      69.163.136.138                 ;
+mysql.1800remodel.com.         IN A      208.97.137.126                 ;
+_autodiscover._tcp.email.1800remodel.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+legacy.1800remodel.com.        IN A      208.97.137.126                 ;
+_dmarc.1800remodel.com.        IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@1800remodel.com ;
+ssh.dev56.1800remodel.com.     IN A      208.97.137.126                 ;
+ssh.groups.1800remodel.com.    IN A      208.97.137.126                 ;
+www.webmail.contractors.1800remodel.com. IN A      69.163.136.138                 ;
+#  .................................................. Zone: 1800remodel.net ..................................................
+$ORIGIN 1800remodel.net
+$TTL 600s
+1800remodel.net.               IN A      208.97.137.126                 ;
+www.1800remodel.net.           IN A      208.97.137.126                 ;
+ftp.1800remodel.net.           IN A      208.97.137.126                 ;
+ssh.1800remodel.net.           IN A      208.97.137.126                 ;
+#  .................................................. Zone: 18rppc.click ..................................................
+$ORIGIN 18rppc.click
+$TTL 600s
+18rppc.click.                  IN A      207.174.61.1                   ;
+#  .................................................. Zone: 800paypercall.com ..................................................
+$ORIGIN 800paypercall.com
+$TTL 600s
+ftp.800paypercall.com.         IN A      208.97.137.126                 ;
+www.800paypercall.com.         IN A      208.97.137.126                 ;
+800paypercall.com.             IN A      208.97.137.126                 ;
+ssh.800paypercall.com.         IN A      208.97.137.126                 ;
+#  .................................................. Zone: 800remodel.com ..................................................
+$ORIGIN 800remodel.com
+$TTL 600s
+ftp.800remodel.com.            IN A      208.97.137.126                 ;
+www.800remodel.com.            IN A      208.97.137.126                 ;
+800remodel.com.                IN A      208.97.137.126                 ;
+800remodel.com.                IN MX     0 ASPMX.L.GOOGLE.COM.          ;
+ssh.800remodel.com.            IN A      208.97.137.126                 ;
+#  .................................................. Zone: adrevenuesolutions.com ..................................................
+$ORIGIN adrevenuesolutions.com
+$TTL 600s
+autoconfig.adrevenuesolutions.com. IN CNAME  autoconfig.dreamhost.com       ;
+mail.adrevenuesolutions.com.   IN A      64.90.62.162                   ;
+mail.adrevenuesolutions.com.   IN MX     0 mx1.mailchannels.net.        ;
+mail.adrevenuesolutions.com.   IN MX     0 mx2.mailchannels.net.        ;
+www.webmail.adrevenuesolutions.com. IN A      69.163.136.138                 ;
+www.mailboxes.adrevenuesolutions.com. IN A      69.163.136.97                  ;
+_dmarc.adrevenuesolutions.com. IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@adrevenuesolutions.com ;
+www.adrevenuesolutions.com.    IN A      208.97.137.126                 ;
+www.adrevenuesolutions.com.    IN CNAME  www116.wixdns.net              ;
+dreamhost._domainkey.adrevenuesolutions.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtLkVKk0PgGxYCU1Eq2wUA2M7s5V89Ty/4Qj8jYnIjCSoRcqUEfOsWQNDtkKVAwoMuafj1fMmkIT6T8andgY4xvh4NTfgM87JoVDQd5vXz3ZugAS2kzMpgjGM/hAQSimqTLRPRIaSuh/nqVeEm1jQlGbPauNse/EBK5pzbZwXv+TTV2xlW4zMS0OUdx05NRYFkOa+RisT6AG8AggLS/VOOUt7uiFq70RMAIGZNZNwuebsYftlg+nQC6lhK4mZAMAcatdH1X3ZlkVLRjCJrc9yYnRKj3FOs4TvKKm7tEKqU7owI+HIAszLJQbkFlPhjIRG2mpXGjLBt0+T0g0FcDzMyQIDAQAB ;
+ftp.adrevenuesolutions.com.    IN A      208.97.137.126                 ;
+webmail.adrevenuesolutions.com. IN A      69.163.136.138                 ;
+adrevenuesolutions.com.        IN A      208.97.137.126                 ;
+adrevenuesolutions.com.        IN A      23.236.62.147                  ;
+adrevenuesolutions.com.        IN MX     0 mx1.mailchannels.net.        ;
+adrevenuesolutions.com.        IN MX     0 mx2.mailchannels.net.        ;
+adrevenuesolutions.com.        IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+ssh.adrevenuesolutions.com.    IN A      208.97.137.126                 ;
+mailboxes.adrevenuesolutions.com. IN A      69.163.136.97                  ;
+_autodiscover._tcp.adrevenuesolutions.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+#  .................................................. Zone: affordablematchmakers.com ..................................................
+$ORIGIN affordablematchmakers.com
+$TTL 600s
+mailboxes.affordablematchmakers.com. IN A      69.163.136.97                  ;
+ftp.lp1.affordablematchmakers.com. IN A      208.97.137.126                 ;
+meetings.affordablematchmakers.com. IN A      208.97.137.126                 ;
+_autodiscover._tcp.affordablematchmakers.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+www.meetings.affordablematchmakers.com. IN A      208.97.137.126                 ;
+ssh.lp1.affordablematchmakers.com. IN A      208.97.137.126                 ;
+affordablematchmakers.com.     IN A      23.236.62.147                  ;
+affordablematchmakers.com.     IN MX     0 mx1.mailchannels.net.        ;
+affordablematchmakers.com.     IN MX     0 mx2.mailchannels.net.        ;
+affordablematchmakers.com.     IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+webmail.affordablematchmakers.com. IN A      69.163.136.138                 ;
+www.affordablematchmakers.com. IN CNAME  www116.wixdns.net              ;
+www.mailboxes.affordablematchmakers.com. IN A      69.163.136.97                  ;
+lp1.affordablematchmakers.com. IN A      208.97.137.126                 ;
+dreamhost._domainkey.affordablematchmakers.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx3lmneYRfI2ZjbTT82OxhIGQK6pVmfN21SRK8aX3/dvZgiYYetSmh2FldAAxaFlkOHTWAqqBbEm9DLWNgpNQdRvuSdmpMzXOVuMaaX5rKWfYY3Y09GGj9fYhWE1MmVHe5tbizxMHzRnIkRovu/T2tjpoQuCtZ9T/n/tdg30iSg7Wg3FAVpGbbNIQ8f1vR4qA0MCKVFJbnyyKkyN5d7Xo5x7ZG3Mj3DbQp3odWKKWO8poFQc07m/7taglW57f6ypDja29kedkjgsrN6tE3kXaz9YjNkja0Zu8UROi6dUljgCBeSYnaavz6ygFwGdVaQlhxk49tQTfk6HKVz6dgy5EjQIDAQAB ;
+autoconfig.affordablematchmakers.com. IN CNAME  autoconfig.dreamhost.com       ;
+www.lp1.affordablematchmakers.com. IN A      208.97.137.126                 ;
+ssh.meetings.affordablematchmakers.com. IN A      208.97.137.126                 ;
+www.webmail.affordablematchmakers.com. IN A      69.163.136.138                 ;
+ftp.meetings.affordablematchmakers.com. IN A      208.97.137.126                 ;
+mail.affordablematchmakers.com. IN A      64.90.62.162                   ;
+mail.affordablematchmakers.com. IN MX     0 mx1.mailchannels.net.        ;
+mail.affordablematchmakers.com. IN MX     0 mx2.mailchannels.net.        ;
+mysql.lp1.affordablematchmakers.com. IN A      208.97.137.126                 ;
+#  .................................................. Zone: bhdirect.co ..................................................
+$ORIGIN bhdirect.co
+$TTL 600s
+webmail.bhdirect.co.           IN A      69.163.136.138                 ;
+bhdirect.co.                   IN A      208.97.137.126                 ;
+bhdirect.co.                   IN MX     0 mx1.mailchannels.net.        ;
+bhdirect.co.                   IN MX     0 mx2.mailchannels.net.        ;
+bhdirect.co.                   IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+ftp.bhdirect.co.               IN A      208.97.137.126                 ;
+ssh.bhdirect.co.               IN A      208.97.137.126                 ;
+mailboxes.bhdirect.co.         IN A      69.163.136.97                  ;
+_autodiscover._tcp.bhdirect.co. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+autoconfig.bhdirect.co.        IN CNAME  autoconfig.dreamhost.com       ;
+www.webmail.bhdirect.co.       IN A      69.163.136.138                 ;
+mail.bhdirect.co.              IN A      64.90.62.162                   ;
+mail.bhdirect.co.              IN MX     0 mx1.mailchannels.net.        ;
+mail.bhdirect.co.              IN MX     0 mx2.mailchannels.net.        ;
+www.bhdirect.co.               IN A      208.97.137.126                 ;
+_dmarc.bhdirect.co.            IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@bhdirect.co ;
+www.mailboxes.bhdirect.co.     IN A      69.163.136.97                  ;
+dreamhost._domainkey.bhdirect.co. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7B3X9DdoHa4NvnkTWS/XBjSMS0KBM98D5zHYlodcMupZedvQm364gcvRHE1G4vdVhxB/WFTbvDPeUz0iJxCCBFnj2WVbSMTnnw4ggEIU3/IazG3i3Zr+TffhzenH++JdAXJZj5vIZ7Q56u2FWaldPCH2QebRI97YMImdQZ5ZgQIbclm6vRqVulomwEZrWjCwHTtCxrAYQH+VT+eAGLyFt25XmOPOqS1uWp/25M6tDVeNmcQnTNjlD8EH1DH7PmMYhqSxRPUNdvVc/qqR/4OS1mDeDnAIowMhdilujOMtzGrOMLAqAQFLxwfx1KkM4lcMJzsVWto8k9rMSMpcmCVlZQIDAQAB ;
+#  .................................................. Zone: bhdirect.com ..................................................
+$ORIGIN bhdirect.com
+$TTL 600s
+ssh.trk.bhdirect.com.          IN A      208.97.137.126                 ;
+ssh.archives.bhdirect.com.     IN A      208.97.137.126                 ;
+ssh.media.bhdirect.com.        IN A      208.97.137.126                 ;
+cloud.bhdirect.com.            IN A      172.31.8.55                    ;
+proxy.bhdirect.com.            IN A      208.97.137.126                 ;
+webmail.post.bhdirect.com.     IN A      69.163.136.138                 ;
+ssh.proxy.bhdirect.com.        IN A      208.97.137.126                 ;
+dreamhost._domainkey.post.bhdirect.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0yxyfr5DgmVEguODc/rTn4sA8TuQdHYs7GlqifObgDbjlfkQ+14OPpkAr23wk+VE/wxcip5MXksAOsblJOglRBPFJvzdOaSmA40X73rh9pG0saLqsYXsrdckMuCw7DkHPmtGGuOigh6Cpj6mESwo+3xKzvNv5T5/fA75rRtwLxWJ7k8UMHywJoIiWwErUflCLBC7EiZOEZt57RIMSwPSfR5hGiMDA0veQqffpPSbLSN9oA6jkOl6bLB+APtaEkhriQ1sPrQHPT16rJjPEOpwnCjX6Pturbm/A3HSUDZ4so3UPalVXjCS/U/mokkyI0X8pxfycB+DzIcZYepXFSuAGwIDAQAB ;
+ftp.admin.bhdirect.com.        IN A      208.97.137.126                 ;
+www.sos.bhdirect.com.          IN A      208.97.137.126                 ;
+portal.bhdirect.com.           IN A      199.192.30.216                 ;
+post.bhdirect.com.             IN A      208.97.137.126                 ;
+post.bhdirect.com.             IN MX     0 mx1.dreamhost.com.           ;
+post.bhdirect.com.             IN MX     0 mx2.dreamhost.com.           ;
+post.bhdirect.com.             IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+trk.bhdirect.com.              IN A      208.97.137.126                 ;
+sites.bhdirect.com.            IN CNAME  ghs.googlehosted.com.          ;
+post2.bhdirect.com.            IN CNAME  api.five9.com                  ;
+ssh.sos.bhdirect.com.          IN A      208.97.137.126                 ;
+_dmarc.bhdirect.com.           IN TXT    v=DMARC1; p=quarantine; fo=1; rua=mailto:dmarc@bhdirect.com; ruf=mailto:dmarc@bhdirect.com; pct=100 ;
+www.webmail.post.bhdirect.com. IN A      69.163.136.138                 ;
+archives.bhdirect.com.         IN A      208.97.137.126                 ;
+www.proxy.bhdirect.com.        IN A      208.97.137.126                 ;
+bhdirect.com.                  IN A      208.97.137.126                 ;
+bhdirect.com.                  IN MX     0 aspmx.l.google.com.          ;
+bhdirect.com.                  IN TXT    v=spf1 include:_spf.google.com ~all ;
+site.bhdirect.com.             IN CNAME  www116.wixdns.net              ;
+ftp.bhdirect.com.              IN A      208.97.137.126                 ;
+_autodiscover._tcp.post.bhdirect.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+admin.bhdirect.com.            IN A      208.97.137.126                 ;
+files.bhdirect.com.            IN A      216.240.44.45                  ;
+www.media.bhdirect.com.        IN A      208.97.137.126                 ;
+ftp.post.bhdirect.com.         IN A      208.97.137.126                 ;
+www.archives.bhdirect.com.     IN A      208.97.137.126                 ;
+www.trk.bhdirect.com.          IN A      208.97.137.126                 ;
+mailboxes.post.bhdirect.com.   IN A      69.163.136.97                  ;
+calendar.bhdirect.com.         IN CNAME  ghs.googlehosted.com.          ;
+mail.bhdirect.com.             IN A      98.129.229.202                 ;
+autoconfig.post.bhdirect.com.  IN CNAME  autoconfig.dreamhost.com       ;
+mail.post.bhdirect.com.        IN A      64.90.62.162                   ;
+mail.post.bhdirect.com.        IN MX     0 mx1.dreamhost.com.           ;
+mail.post.bhdirect.com.        IN MX     0 mx2.dreamhost.com.           ;
+www.admin.bhdirect.com.        IN A      208.97.137.126                 ;
+ftp.sos.bhdirect.com.          IN A      208.97.137.126                 ;
+sos.bhdirect.com.              IN A      208.97.137.126                 ;
+vpn.bhdirect.com.              IN CNAME  cloud.bhdirect.com             ;
+ssh.bhdirect.com.              IN A      208.97.137.126                 ;
+ssh.post.bhdirect.com.         IN A      208.97.137.126                 ;
+www.mailboxes.post.bhdirect.com. IN A      69.163.136.97                  ;
+media.bhdirect.com.            IN A      208.97.137.126                 ;
+www.site.bhdirect.com.         IN CNAME  www116.wixdns.net              ;
+ftp.media.bhdirect.com.        IN A      208.97.137.126                 ;
+docs.bhdirect.com.             IN CNAME  ghs.googlehosted.com.          ;
+ftp.trk.bhdirect.com.          IN A      208.97.137.126                 ;
+www.post.bhdirect.com.         IN A      208.97.137.126                 ;
+ftp.archives.bhdirect.com.     IN A      208.97.137.126                 ;
+www.bhdirect.com.              IN A      208.97.137.126                 ;
+ftp.proxy.bhdirect.com.        IN A      208.97.137.126                 ;
+storage.bhdirect.com.          IN CNAME  bps-test1.objects.cdn.dream.io. ; Fastly record for bps-test1.objects-us-west-1.dream.io
+start.bhdirect.com.            IN CNAME  ghs.googlehosted.com.          ;
+google._domainkey.bhdirect.com. IN TXT    v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqohmUsTkUMaEobNCEtHjjdRyhDltL0VAfMdhDA6LH0FJM0aG+J5hkvsMQXh63yMWSmuUBWz5zG/Ymwqkzpk4sERqtIUN9XbkqMCYQrh5xWU33C2WgDyGr89jplvvmou5bmBHqsBNLJT5z4XqginVQOOEMZM/d8SWONJoG8LBGfoSmVxDwZQSaNvUvG4URJ/5tYw6ve5kaGKyN2CnqvVQ/MYbS6OIWAOGUoaBSkn5sqhilEKrSjTuku4EwvC2ilkmFInZ8n0DaCjQ5ORUDVLOm26+24IpIvJ8vGmasdhWtZ3PfsUCKuHv58kK6kvHCT5HOgCxrhYMdJwyjCFbdGAIgQIDAQAB ;
+ssh.admin.bhdirect.com.        IN A      208.97.137.126                 ;
+#  .................................................. Zone: blowze.co ..................................................
+$ORIGIN blowze.co
+$TTL 600s
+dreamhost._domainkey.blowze.co. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4HNVFNUF0dpxdw3GXwBIil9ArcxjDJO8Z2BzxrSA0zn8MzOOj1OtbHChOrv6DWxoFig4Daha5VBHUiR7DuOu1hinhTHJaEIpgeN1yrwaVc1mD5nKP3vg0t9BL6DSAXp/j9ayBut1svSCKd3nxi3BkZe8u7w8DVwWbu74iu8svoCrDEfgwkhEDiUz1bV4ryUJI1gkGPKPvhPwX5td16XHiCu+63JLZc7k7bPBCkVWrbbLhLubgs6elqzrTfPHerJNnVz6FKtOU6AdSXVq8PA8zkBtnz+Dp9EbuIWAV76Dx/UPHF7uRqSmqvbNvh3thKSLPqbjJMknlZuILNvhtrd9bwIDAQAB ;
+www.webmail.blowze.co.         IN A      69.163.136.138                 ;
+mail.blowze.co.                IN A      64.90.62.162                   ;
+mail.blowze.co.                IN MX     0 mx1.mailchannels.net.        ;
+mail.blowze.co.                IN MX     0 mx2.mailchannels.net.        ;
+_dmarc.email.blowze.co.        IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@email.blowze.co ;
+www.webmail.email.blowze.co.   IN A      69.163.136.138                 ;
+autoconfig.blowze.co.          IN CNAME  autoconfig.dreamhost.com       ;
+ftp.email.blowze.co.           IN A      208.97.137.126                 ;
+www.email.blowze.co.           IN A      208.97.137.126                 ;
+mail.email.blowze.co.          IN A      64.90.62.162                   ;
+mail.email.blowze.co.          IN MX     0 mx1.dreamhost.com.           ;
+mail.email.blowze.co.          IN MX     0 mx2.dreamhost.com.           ;
+ssh.blowze.co.                 IN A      208.97.137.126                 ;
+mailboxes.email.blowze.co.     IN A      69.163.136.97                  ;
+webmail.blowze.co.             IN A      69.163.136.138                 ;
+email.blowze.co.               IN A      208.97.137.126                 ;
+email.blowze.co.               IN MX     0 mx1.dreamhost.com.           ;
+email.blowze.co.               IN MX     0 mx2.dreamhost.com.           ;
+email.blowze.co.               IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+dreamhost._domainkey.email.blowze.co. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAodLif+1SzLAwxBiVCj8DQ159x7wVP9DoolQRzhOnXWurrUruc32McwqKCPZDIS2JSiiXZO02HUzCoNK8ivDk75R3fZiGbOv5uyWlRSepUPgsl01hYgN4v1DwaRKELqYKT/qVv5BtLqACjxQUs3sgEFIY+wIAJEI/xeYYUvBUpqwuINKTaT+uMQrbY+EdeP5rqCvoNE1jxU2IWoHTCzp1R680k636WrStHtFPF/GmwAGsxKNJ9xuyLIwbSGWwjVBUlpJPT25cSejT17ArAx3Gw/yQylKSQFCS3ZsG4690lRgF+sy+KcLLDxw5jhseDSEHPuVt/6V4q192D8iUg8ZIYQIDAQAB ;
+www.blowze.co.                 IN A      208.97.137.126                 ;
+_dmarc.blowze.co.              IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@blowze.co ;
+www.mailboxes.blowze.co.       IN A      69.163.136.97                  ;
+ssh.email.blowze.co.           IN A      208.97.137.126                 ;
+autoconfig.email.blowze.co.    IN CNAME  autoconfig.dreamhost.com       ;
+_autodiscover._tcp.blowze.co.  IN SRV    5 0 443 autoconfig.dreamhost.com ;
+mailboxes.blowze.co.           IN A      69.163.136.97                  ;
+www.mailboxes.email.blowze.co. IN A      69.163.136.97                  ;
+_autodiscover._tcp.email.blowze.co. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+webmail.email.blowze.co.       IN A      69.163.136.138                 ;
+blowze.co.                     IN A      208.97.137.126                 ;
+blowze.co.                     IN MX     0 mx1.mailchannels.net.        ;
+blowze.co.                     IN MX     0 mx2.mailchannels.net.        ;
+blowze.co.                     IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+ftp.blowze.co.                 IN A      208.97.137.126                 ;
+#  .................................................. Zone: blowze.com ..................................................
+$ORIGIN blowze.com
+$TTL 600s
+www.mailboxes.blowze.com.      IN A      69.163.136.97                  ;
+_dmarc.blowze.com.             IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@blowze.com ;
+cjx3._domainkey.blowze.com.    IN CNAME  dkim3.5f21bfa82048.p957.email.myshopify.com ;
+www.blowze.com.                IN CNAME  shops.myshopify.com            ;
+cjx2._domainkey.blowze.com.    IN CNAME  dkim2.5f21bfa82048.p957.email.myshopify.com ;
+dreamhost._domainkey.blowze.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuRcFRgd3ECHkW3KwotLZ42cv0/DP2K8TKB4NVbtAja9sq81vxKQ4TgcrJUCwCxrISRbR8n+/6QeRdv1stFQmvwqwylVV/++6odUBG6J00Ghw93J0qvhJIgLakjlVE6ZQli8Dsu4Ze6BKjGlsc/tXtFf9TcTefIA4ztNQCMGmDWMTM0+T+rTgjSMqNgHhvhdvVV31yX8Hg8zfTnvQK7jxhAUivJAx+SfKg4QXpxSQe5adJjnqNPyLLNZxnm91zStK/L0cKTvN6ijgVBU+LSOSF+iP7F5Q3ZxVIUHMeJ4GGrwU7a7vZu0rQ09FYLdZbs7noo1qe/a0rSpiXFrBKYyS3wIDAQAB ;
+ftp.test.blowze.com.           IN A      208.97.137.126                 ;
+autoconfig.blowze.com.         IN CNAME  autoconfig.dreamhost.com       ;
+cjx._domainkey.blowze.com.     IN CNAME  dkim1.5f21bfa82048.p957.email.myshopify.com ;
+mail.blowze.com.               IN A      64.90.62.162                   ;
+mail.blowze.com.               IN MX     0 mx1.mailchannels.net.        ;
+mail.blowze.com.               IN MX     0 mx2.mailchannels.net.        ;
+ssh.test.blowze.com.           IN A      208.97.137.126                 ;
+www.webmail.blowze.com.        IN A      69.163.136.138                 ;
+mailboxes.blowze.com.          IN A      69.163.136.97                  ;
+www.test.blowze.com.           IN A      208.97.137.126                 ;
+test.blowze.com.               IN A      208.97.137.126                 ;
+_autodiscover._tcp.blowze.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+blowze.com.                    IN A      23.227.38.65                   ;
+blowze.com.                    IN MX     0 mx1.mailchannels.net.        ;
+blowze.com.                    IN MX     0 mx2.mailchannels.net.        ;
+blowze.com.                    IN TXT    google-site-verification=E-qREtc6N8erJDpeXAaoH6mtVjd5DAIbcP1zLJJ_hes ;
+blowze.com.                    IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+webmail.blowze.com.            IN A      69.163.136.138                 ;
+mailercjx.blowze.com.          IN CNAME  5f21bfa82048.p957.email.myshopify.com ;
+#  .................................................. Zone: blowzetissues.co ..................................................
+$ORIGIN blowzetissues.co
+$TTL 600s
+dreamhost._domainkey.blowzetissues.co. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyOEEY17BsmMhmvuDCXvwZzS/pfuwMcZlVBn7V4xxPC94o4+DHlBCNg42gWMxhhjDKXGbMAXS3Udh32PTLC68c3jx9imaGGR2+zE4FZcKb7IF7kgILZ0gTNnALrOvLYiPav1tFCt0zPlqJ5py1PAfQdiTiwJApBr2PrpPfARUY9mpV2OCBvXUnPxXb9qQKnCA58dSR4wltLICl3c2otIlhVN8ZDdmXJEjKqJprlRwaQYQCS8EoU8/+8w4UxqcZn3SxfmL+xe/00XrPK9+zgXKvb0UWPNoQ6MMCWH5gqXkoDHLRtu/e1gq4b/N2ETf88pm6PojVk0vYMMA3E7P3fHRPQIDAQAB ;
+www.webmail.email.blowzetissues.co. IN A      69.163.136.138                 ;
+autoconfig.blowzetissues.co.   IN CNAME  autoconfig.dreamhost.com       ;
+ftp.email.blowzetissues.co.    IN A      208.97.137.126                 ;
+www.webmail.blowzetissues.co.  IN A      69.163.136.138                 ;
+mail.blowzetissues.co.         IN A      64.90.62.162                   ;
+mail.blowzetissues.co.         IN MX     0 mx1.mailchannels.net.        ;
+mail.blowzetissues.co.         IN MX     0 mx2.mailchannels.net.        ;
+_dmarc.email.blowzetissues.co. IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@email.blowzetissues.co ;
+www.email.blowzetissues.co.    IN A      208.97.137.126                 ;
+mail.email.blowzetissues.co.   IN A      64.90.62.162                   ;
+mail.email.blowzetissues.co.   IN MX     0 mx1.dreamhost.com.           ;
+mail.email.blowzetissues.co.   IN MX     0 mx2.dreamhost.com.           ;
+webmail.blowzetissues.co.      IN A      69.163.136.138                 ;
+ssh.blowzetissues.co.          IN A      208.97.137.126                 ;
+mailboxes.email.blowzetissues.co. IN A      69.163.136.97                  ;
+www.blowzetissues.co.          IN A      208.97.137.126                 ;
+_dmarc.blowzetissues.co.       IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@blowzetissues.co ;
+www.mailboxes.blowzetissues.co. IN A      69.163.136.97                  ;
+dreamhost._domainkey.email.blowzetissues.co. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxvamkhzFQZyRz1l75/VJidTm3sy1wDXF7rGJZ3zHMkZcxAbWYFK0i8+MVmn7YtZLMl4iXiYfDBBCbuNZ9dHudzyJkEUt5rFlGYPt7Bxcxj4ZnLzVziLyMvNjy3VWxfzHfXZffdQ+TBmIxiN971/ZBIl0v5YRwrjaQo1vY+m2JGQIwXC2Ri8vRtwiG+FEeQg28De1M8Bvy424MOAgHj1SWVMY0MPsdI4QNDMSfDTYxkpvTNDvQI93lI1qDt0D3tYZmF0dMA77/aTiUPR57Xe8Jc3zSG7yrSlCZI/MUVEBMnIL7HpLjhoM3VmLaQtOCWc4aVkgzBhvVAdb1xxZ23phawIDAQAB ;
+email.blowzetissues.co.        IN A      208.97.137.126                 ;
+email.blowzetissues.co.        IN MX     0 mx1.dreamhost.com.           ;
+email.blowzetissues.co.        IN MX     0 mx2.dreamhost.com.           ;
+email.blowzetissues.co.        IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+autoconfig.email.blowzetissues.co. IN CNAME  autoconfig.dreamhost.com       ;
+ssh.email.blowzetissues.co.    IN A      208.97.137.126                 ;
+mailboxes.blowzetissues.co.    IN A      69.163.136.97                  ;
+www.mailboxes.email.blowzetissues.co. IN A      69.163.136.97                  ;
+_autodiscover._tcp.blowzetissues.co. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+webmail.email.blowzetissues.co. IN A      69.163.136.138                 ;
+blowzetissues.co.              IN A      208.97.137.126                 ;
+blowzetissues.co.              IN MX     0 mx1.mailchannels.net.        ;
+blowzetissues.co.              IN MX     0 mx2.mailchannels.net.        ;
+blowzetissues.co.              IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+ftp.blowzetissues.co.          IN A      208.97.137.126                 ;
+_autodiscover._tcp.email.blowzetissues.co. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+#  .................................................. Zone: blowzetissues.com ..................................................
+$ORIGIN blowzetissues.com
+$TTL 600s
+webmail.blowzetissues.com.     IN A      69.163.136.138                 ;
+send.blowzetissues.com.        IN CNAME  u161779.wl030.sendgrid.net     ;
+mailboxes.email.blowzetissues.com. IN A      69.163.136.97                  ;
+ssh.blowzetissues.com.         IN A      208.97.137.126                 ;
+www.email.blowzetissues.com.   IN A      208.97.137.126                 ;
+mail.email.blowzetissues.com.  IN A      64.90.62.162                   ;
+mail.email.blowzetissues.com.  IN MX     0 mx1.dreamhost.com.           ;
+mail.email.blowzetissues.com.  IN MX     0 mx2.dreamhost.com.           ;
+autoconfig.blowzetissues.com.  IN CNAME  autoconfig.dreamhost.com       ;
+www.webmail.email.blowzetissues.com. IN A      69.163.136.138                 ;
+ftp.email.blowzetissues.com.   IN A      208.97.137.126                 ;
+www.webmail.blowzetissues.com. IN A      69.163.136.138                 ;
+_dmarc.email.blowzetissues.com. IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@email.blowzetissues.com ;
+mail.blowzetissues.com.        IN A      64.90.62.162                   ;
+mail.blowzetissues.com.        IN MX     0 mx1.mailchannels.net.        ;
+mail.blowzetissues.com.        IN MX     0 mx2.mailchannels.net.        ;
+dreamhost._domainkey.blowzetissues.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJ+YpRKup1CHBACWQuPO/gd63SQdYImruXRo4n5yHhLQJNMgLZmnJ8SIw9a9rN0GONFtME7osgAt3XWLqZegSPuQYPuAAxFxqKvfphEwNDVKSUgXtmKhs5bZVg6KIPZPTpw96VicVbsjuMPz3zqmnn6RNqevw7WyOorpVnTasf9NGjbDNZUriAJNoFZ5EYstrfpDsl1SW0cFihzs12tLrYL8OBIf6W2SyF2SPkYvLR2CnhdDaT8zAYEgbfE/CIHAxyeA87mEO5OeX8tyJ9PwB++AmxtvN7rioYV6V3PXqoFPlNVnybc8fph8FCcUeQOJXet6FIZSQ4YPAiFefnWhjQIDAQAB ;
+blowzetissues.com.             IN A      208.97.137.126                 ;
+blowzetissues.com.             IN MX     0 mx1.mailchannels.net.        ;
+blowzetissues.com.             IN MX     0 mx2.mailchannels.net.        ;
+blowzetissues.com.             IN TXT    klaviyo-site-verification=RWwd4W ;
+blowzetissues.com.             IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+webmail.email.blowzetissues.com. IN A      69.163.136.138                 ;
+ftp.blowzetissues.com.         IN A      208.97.137.126                 ;
+_autodiscover._tcp.email.blowzetissues.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+mailboxes.blowzetissues.com.   IN A      69.163.136.97                  ;
+www.mailboxes.email.blowzetissues.com. IN A      69.163.136.97                  ;
+_autodiscover._tcp.blowzetissues.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+kl._domainkey.blowzetissues.com. IN CNAME  kl.domainkey.u161779.wl030.sendgrid.net ;
+kl2._domainkey.blowzetissues.com. IN CNAME  kl2.domainkey.u161779.wl030.sendgrid.net ;
+autoconfig.email.blowzetissues.com. IN CNAME  autoconfig.dreamhost.com       ;
+ssh.email.blowzetissues.com.   IN A      208.97.137.126                 ;
+www.blowzetissues.com.         IN A      208.97.137.126                 ;
+_dmarc.blowzetissues.com.      IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@blowzetissues.com ;
+www.mailboxes.blowzetissues.com. IN A      69.163.136.97                  ;
+email.blowzetissues.com.       IN A      208.97.137.126                 ;
+email.blowzetissues.com.       IN MX     0 mx1.dreamhost.com.           ;
+email.blowzetissues.com.       IN MX     0 mx2.dreamhost.com.           ;
+email.blowzetissues.com.       IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+dreamhost._domainkey.email.blowzetissues.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2VtL3hvYrvCKOGK9lFX9fC2/2SRp8YowMMMQA1DygirL6QiUN5ydiyxW6/vL9T7VDelVwbDBCMJedZj0dfNAyAUT4QQ93J8JXNVNY2SLa3jmsPN1G4ylTIlRZCXxFNvdsJKfypi/vKFWaAFkTVmENcj7fBxe0nBVkfzmdWp5WdYbhGnFOdCD1Yv4mM9mghJWiQUf2faV0U96khmAsLt1juoZuFiRN1B7zcu52IiUPLAIsPnnDn1CpOGdgTSpXFFad4wVUHeI02w55r6g6KiOfUKoH1f+4YDZOiJDJ4owqbyvdlw9InwDDYiy5LaMf4TDzPs77JdpK1UHkbw4Yd+ThwIDAQAB ;
+#  .................................................. Zone: froomzoom.co ..................................................
+$ORIGIN froomzoom.co
+$TTL 600s
+www.mailboxes.froomzoom.co.    IN A      69.163.136.97                  ;
+_dmarc.froomzoom.co.           IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@froomzoom.co ;
+www.froomzoom.co.              IN A      208.97.137.126                 ;
+dreamhost._domainkey.froomzoom.co. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt30CMQQg8aqjBhELmg8SvXVjokrTKpsG2csqoIuhfgvl6ti439/4CMHb4byQ8fDRGbuIku4PyHCmkoSyNEp3xeprs+Wq3ep8/jb4znbCMr387nvMRgbj+oFBKPRN7tqztvwdYPrA1v8xeYY8qEwY5l/mmAaMjCQAJ+By3sAnnX3mU8plO1n1+p5wY7QM++dbOoHVStTypafrdVwBgbFQa7KzczqGw9E16/OfYBbwdbVRqKYBg3WI9eKLiI4oqrBBqctB9VA6ixLM8lIVN9s/vuKdqG+VJ5j0U7xkOzCF1qcZWPNZmGCRaXYYGGelNJfd8LpcBRqOIDrv1F10t6lgjwIDAQAB ;
+autoconfig.froomzoom.co.       IN CNAME  autoconfig.dreamhost.com       ;
+mail.froomzoom.co.             IN A      64.90.62.162                   ;
+mail.froomzoom.co.             IN MX     0 mx1.mailchannels.net.        ;
+mail.froomzoom.co.             IN MX     0 mx2.mailchannels.net.        ;
+www.webmail.froomzoom.co.      IN A      69.163.136.138                 ;
+mailboxes.froomzoom.co.        IN A      69.163.136.97                  ;
+_autodiscover._tcp.froomzoom.co. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+ftp.froomzoom.co.              IN A      208.97.137.126                 ;
+webmail.froomzoom.co.          IN A      69.163.136.138                 ;
+froomzoom.co.                  IN A      208.97.137.126                 ;
+froomzoom.co.                  IN MX     0 mx1.mailchannels.net.        ;
+froomzoom.co.                  IN MX     0 mx2.mailchannels.net.        ;
+froomzoom.co.                  IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+ssh.froomzoom.co.              IN A      208.97.137.126                 ;
+#  .................................................. Zone: froomzoom.com ..................................................
+$ORIGIN froomzoom.com
+$TTL 600s
+_dmarc.froomzoom.com.          IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@froomzoom.com ;
+www.froomzoom.com.             IN CNAME  www116.wixdns.net              ;
+www.meetings.froomzoom.com.    IN A      208.97.137.126                 ;
+meetings.froomzoom.com.        IN A      208.97.137.126                 ;
+ssh.meetings.froomzoom.com.    IN A      208.97.137.126                 ;
+froomzoom.com.                 IN A      23.236.62.147                  ;
+froomzoom.com.                 IN MX     1 ASPMX.L.GOOGLE.COM.          ;
+froomzoom.com.                 IN MX     10 ALT3.ASPMX.L.GOOGLE.COM.    ;
+froomzoom.com.                 IN MX     10 ALT4.ASPMX.L.GOOGLE.COM.    ;
+froomzoom.com.                 IN MX     5 ALT1.ASPMX.L.GOOGLE.COM.     ;
+froomzoom.com.                 IN MX     5 ALT2.ASPMX.L.GOOGLE.COM.     ;
+froomzoom.com.                 IN TXT    google-site-verification=5sosHMTxTv7bvL5S0CWTDjj9Mf6JyqVxrPtQg408bf4 ;
+froomzoom.com.                 IN TXT    v=spf1 include:_spf.google.com ~all ;
+ftp.meetings.froomzoom.com.    IN A      208.97.137.126                 ;
+#  .................................................. Zone: langerelectric.la ..................................................
+$ORIGIN langerelectric.la
+$TTL 600s
+www.langerelectric.la.         IN CNAME  www116.wixdns.net              ;
+_dmarc.langerelectric.la.      IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@langerelectric.la ;
+dreamhost._domainkey.email.langerelectric.la. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvZaaJv3qJx1J85+JQAPCbnjlnGp+e0zlw4AHueqyUryXL+WHi87CZ36XOrj+UD3ruV3sKmVL9zIUHL2+i1AhekrnKElqCDqe6C1BKGR/yBrtg4/W9whrKofIs/qXbjLWOwQS0NX4kVTxC0uUfx5cTVok2nE4GopvbXHY66HK+1BiFGidI1FqSrIihJzGeB6iBHnrjDeAj1Bx/6zArqNV2JoP7us/acbDfMHVJn5HNGOv48+jPfL2gSHIK6N/dsHWViAiJVeFE9a1B/vRJ2SwG6I8md79w5ioGNkf8H3u+RRzloxkER/gQ/MagboxVYUXC10LB9Z9kGIcEWDAFHQviQIDAQAB ;
+email.langerelectric.la.       IN A      208.97.137.126                 ;
+email.langerelectric.la.       IN MX     0 mx1.mailchannels.net.        ;
+email.langerelectric.la.       IN MX     0 mx2.mailchannels.net.        ;
+email.langerelectric.la.       IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+autoconfig.email.langerelectric.la. IN CNAME  autoconfig.dreamhost.com       ;
+www.webmail.email.langerelectric.la. IN A      69.163.136.138                 ;
+ftp.email.langerelectric.la.   IN A      208.97.137.126                 ;
+_dmarc.email.langerelectric.la. IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@email.langerelectric.la ;
+ssh.email.langerelectric.la.   IN A      208.97.137.126                 ;
+www.email.langerelectric.la.   IN A      208.97.137.126                 ;
+www.mailboxes.email.langerelectric.la. IN A      69.163.136.97                  ;
+mail.email.langerelectric.la.  IN A      64.90.62.162                   ;
+mail.email.langerelectric.la.  IN MX     0 mx1.mailchannels.net.        ;
+mail.email.langerelectric.la.  IN MX     0 mx2.mailchannels.net.        ;
+webmail.email.langerelectric.la. IN A      69.163.136.138                 ;
+langerelectric.la.             IN A      23.236.62.147                  ;
+langerelectric.la.             IN MX     1 ASPMX.L.GOOGLE.COM.          ;
+langerelectric.la.             IN MX     10 ALT3.ASPMX.L.GOOGLE.COM.    ;
+langerelectric.la.             IN MX     10 ALT4.ASPMX.L.GOOGLE.COM.    ;
+langerelectric.la.             IN MX     15 k4xjbbsrhptgcykdyvinr7esbglmxh2qhksb2zxk33ixctyxem2q.mx-verification.google.com. ;
+langerelectric.la.             IN MX     5 ALT1.ASPMX.L.GOOGLE.COM.     ;
+langerelectric.la.             IN MX     5 ALT2.ASPMX.L.GOOGLE.COM.     ;
+langerelectric.la.             IN TXT    google-site-verification=VZC-uK8udA4pbieUYNU2joXQ5C2NLIrUazzpxyXXNaQ ;
+langerelectric.la.             IN TXT    v=spf1 include:_spf.google.com ~all ;
+_autodiscover._tcp.email.langerelectric.la. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+mailboxes.email.langerelectric.la. IN A      69.163.136.97                  ;
+#  .................................................. Zone: langerelectrical.com ..................................................
+$ORIGIN langerelectrical.com
+$TTL 600s
+mailboxes.langerelectrical.com. IN A      69.163.136.97                  ;
+_autodiscover._tcp.langerelectrical.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+ftp.langerelectrical.com.      IN A      208.97.137.126                 ;
+webmail.langerelectrical.com.  IN A      69.163.136.138                 ;
+langerelectrical.com.          IN A      208.97.137.126                 ;
+langerelectrical.com.          IN MX     0 mx1.dreamhost.com.           ;
+langerelectrical.com.          IN MX     0 mx2.dreamhost.com.           ;
+langerelectrical.com.          IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+ssh.langerelectrical.com.      IN A      208.97.137.126                 ;
+_dmarc.langerelectrical.com.   IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@langerelectrical.com ;
+www.mailboxes.langerelectrical.com. IN A      69.163.136.97                  ;
+www.langerelectrical.com.      IN A      208.97.137.126                 ;
+dreamhost._domainkey.langerelectrical.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwQPWkybFBlCdXVKTmuevW2fp28XJH1J9kGWfKxQcKDQP3pnuYqIK9Luovxdp2SRnNwtJHECA0BFAzXdV875lDL82tzZekuaZSehkZWGi5ze4Tib6FeZgiZgpISGDGARfVTBfv9zdi0kObmBmospSpV3HC6ZIMwocX4igTl3P51Le6XSBf+rdXn7tPfUXAl5m86bztNu8DQTzunnHVh0rQyvIA6kC6DXRPEkDeQQ9RDOj1ieE6ggS9oDNKB57iq1h6z0Q2TrkE7OcjA6g12PNbwSAWKYTIqrLb66w//H25TLGZHl9rBY7lwr260hkSJyUbqhDA/l6yScM03eBo8nnJQIDAQAB ;
+autoconfig.langerelectrical.com. IN CNAME  autoconfig.dreamhost.com       ;
+mail.langerelectrical.com.     IN A      64.90.62.162                   ;
+mail.langerelectrical.com.     IN MX     0 mx1.dreamhost.com.           ;
+mail.langerelectrical.com.     IN MX     0 mx2.dreamhost.com.           ;
+www.webmail.langerelectrical.com. IN A      69.163.136.138                 ;
+#  .................................................. Zone: langerelectricla.com ..................................................
+$ORIGIN langerelectricla.com
+$TTL 600s
+ftp.langerelectricla.com.      IN A      208.97.137.126                 ;
+langerelectricla.com.          IN A      208.97.137.126                 ;
+langerelectricla.com.          IN MX     1 ASPMX.L.GOOGLE.COM.          ;
+langerelectricla.com.          IN MX     10 ALT3.ASPMX.L.GOOGLE.COM.    ;
+langerelectricla.com.          IN MX     10 ALT4.ASPMX.L.GOOGLE.COM.    ;
+langerelectricla.com.          IN MX     5 ALT1.ASPMX.L.GOOGLE.COM.     ;
+langerelectricla.com.          IN MX     5 ALT2.ASPMX.L.GOOGLE.COM.     ;
+langerelectricla.com.          IN TXT    google-site-verification=VZC-uK8udA4pbieUYNU2joXQ5C2NLIrUazzpxyXXNaQ ;
+langerelectricla.com.          IN TXT    google-site-verification=y_k26ZalXY7IRxEdGYEWdSGKRoCof4kPdGX8BOXsRxM ;
+www.langerelectricla.com.      IN A      208.97.137.126                 ;
+ssh.langerelectricla.com.      IN A      208.97.137.126                 ;
+#  .................................................. Zone: logicallyright.com ..................................................
+$ORIGIN logicallyright.com
+$TTL 600s
+ssh.logicallyright.com.        IN A      208.97.137.126                 ;
+logicallyright.com.            IN A      208.97.137.126                 ;
+www.logicallyright.com.        IN A      208.97.137.126                 ;
+ftp.logicallyright.com.        IN A      208.97.137.126                 ;
+#  .................................................. Zone: logicisholy.com ..................................................
+$ORIGIN logicisholy.com
+$TTL 600s
+ssh.logicisholy.com.           IN A      208.97.137.126                 ;
+ftp.logicisholy.com.           IN A      208.97.137.126                 ;
+logicisholy.com.               IN A      208.97.137.126                 ;
+www.logicisholy.com.           IN A      208.97.137.126                 ;
+#  .................................................. Zone: namethisbrand.com ..................................................
+$ORIGIN namethisbrand.com
+$TTL 600s
+demo.namethisbrand.com.        IN A      67.205.50.206                  ; Demo VHOST
+vps.namethisbrand.com.         IN A      173.203.197.246                ; VPS pointing to PROD
+dev.namethisbrand.com.         IN A      67.205.50.206                  ; Dev Server - points to VPS
+www.namethisbrand.com.         IN A      208.97.137.126                 ;
+www.ntb.namethisbrand.com.     IN A      208.97.137.126                 ;
+server.namethisbrand.com.      IN A      64.235.60.149                  ; VPS on ServerPoint IP #2
+ftp.namethisbrand.com.         IN A      208.97.137.126                 ;
+ssh.ntb.namethisbrand.com.     IN A      208.97.137.126                 ;
+namethisbrand.com.             IN A      208.97.137.126                 ;
+namethisbrand.com.             IN MX     0 ASPMX.L.GOOGLE.COM.          ;
+oldvps.namethisbrand.com.      IN A      64.235.60.148                  ;
+ssh.namethisbrand.com.         IN A      208.97.137.126                 ;
+mysql.namethisbrand.com.       IN A      208.97.137.126                 ;
+ftp.ntb.namethisbrand.com.     IN A      208.97.137.126                 ;
+ntb.namethisbrand.com.         IN A      208.97.137.126                 ;
+#  .................................................. Zone: ntbmedia.com ..................................................
+$ORIGIN ntbmedia.com
+$TTL 600s
+start.ntbmedia.com.            IN CNAME  ghs.googlehosted.com.          ;
+ftp.ntbmedia.com.              IN A      208.97.137.126                 ;
+ntbmedia.com.                  IN A      208.97.137.126                 ;
+ntbmedia.com.                  IN MX     1 ASPMX.L.GOOGLE.COM.          ;
+ntbmedia.com.                  IN MX     10 ALT3.ASPMX.L.GOOGLE.COM.    ;
+ntbmedia.com.                  IN MX     10 ALT4.ASPMX.L.GOOGLE.COM.    ;
+ntbmedia.com.                  IN MX     5 ALT1.ASPMX.L.GOOGLE.COM.     ;
+ntbmedia.com.                  IN MX     5 ALT2.ASPMX.L.GOOGLE.COM.     ;
+mysql.ntbmedia.com.            IN A      208.97.137.126                 ;
+ssh.ntbmedia.com.              IN A      208.97.137.126                 ;
+rewards.ntbmedia.com.          IN CNAME  t800.p4rc.com.                 ;
+temp.ntbmedia.com.             IN A      104.239.144.56                 ;
+prod2.ntbmedia.com.            IN A      104.239.144.56                 ;
+mobicules.ntbmedia.com.        IN A      50.56.234.45                   ;
+cdn.ntbmedia.com.              IN CNAME  c3430061.r61.cf0.rackcdn.com.  ;
+algoworks.ntbmedia.com.        IN A      50.56.234.45                   ;
+docs.ntbmedia.com.             IN CNAME  ghs.googlehosted.com.          ;
+mail.ntbmedia.com.             IN CNAME  ghs.googlehosted.com.          ;
+calendar.ntbmedia.com.         IN CNAME  ghs.googlehosted.com.          ;
+sites.ntbmedia.com.            IN CNAME  ghs.googlehosted.com.          ;
+ntb-app1.ntbmedia.com.         IN A      166.78.62.159                  ;
+cdn2.ntbmedia.com.             IN A      50.56.129.92                   ;
+www.ntbmedia.com.              IN A      208.97.137.126                 ;
+alert.ntbmedia.com.            IN A      184.73.199.214                 ;
+#  .................................................. Zone: paperbrandze.com ..................................................
+$ORIGIN paperbrandze.com
+$TTL 600s
+ssh.paperbrandze.com.          IN A      208.97.137.126                 ;
+ftp.paperbrandze.com.          IN A      208.97.137.126                 ;
+paperbrandze.com.              IN A      208.97.137.126                 ;
+www.paperbrandze.com.          IN A      208.97.137.126                 ;
+#  .................................................. Zone: personalshadchan.co ..................................................
+$ORIGIN personalshadchan.co
+$TTL 600s
+ssh.personalshadchan.co.       IN A      208.97.137.126                 ;
+personalshadchan.co.           IN A      208.97.137.126                 ;
+personalshadchan.co.           IN MX     0 mx1.mailchannels.net.        ;
+personalshadchan.co.           IN MX     0 mx2.mailchannels.net.        ;
+personalshadchan.co.           IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+webmail.personalshadchan.co.   IN A      69.163.136.138                 ;
+ftp.personalshadchan.co.       IN A      208.97.137.126                 ;
+_autodiscover._tcp.personalshadchan.co. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+mailboxes.personalshadchan.co. IN A      69.163.136.97                  ;
+www.webmail.personalshadchan.co. IN A      69.163.136.138                 ;
+mail.personalshadchan.co.      IN A      64.90.62.162                   ;
+mail.personalshadchan.co.      IN MX     0 mx1.mailchannels.net.        ;
+mail.personalshadchan.co.      IN MX     0 mx2.mailchannels.net.        ;
+autoconfig.personalshadchan.co. IN CNAME  autoconfig.dreamhost.com       ;
+dreamhost._domainkey.personalshadchan.co. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2b4kAawwWCXCeUbOQAEVgCeC/x2YSOWTQKPstqwrYQ9osp7f6TXYdQ4wFGRIUxgso8vCgrEwGg0TiCH6DWg2NmxeJEt0D6tXshFrolerNKm1MHVesHC9CmYtgXh5USy432x/Fz4YtZkbKY8JciqzhjyoOZNITysQcAC7LneP+dKVCgfpo9Ajnb6eFTCVISTRD7HkZXA/7gInCb3aqhu14nnHHW2k/AMP5QMN7B9RiKjSiRfvRZp/JtemqKM7UZ5JEjhUvjgs+7iW8J5ZUQdNZXGW17wzDp0w4HNXf05vcf3f5nhsq0cSMz0OXyfVEzo7gm5UFKyip+YcVyriqjsHpQIDAQAB ;
+www.personalshadchan.co.       IN A      208.97.137.126                 ;
+www.mailboxes.personalshadchan.co. IN A      69.163.136.97                  ;
+_dmarc.personalshadchan.co.    IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@personalshadchan.co ;
+#  .................................................. Zone: personalshadchan.com ..................................................
+$ORIGIN personalshadchan.com
+$TTL 600s
+personalshadchan.com.          IN A      23.236.62.147                  ;
+personalshadchan.com.          IN MX     0 mx1.dreamhost.com.           ;
+personalshadchan.com.          IN MX     0 mx2.dreamhost.com.           ;
+personalshadchan.com.          IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+webmail.personalshadchan.com.  IN A      69.163.136.138                 ;
+_autodiscover._tcp.personalshadchan.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+mailboxes.personalshadchan.com. IN A      69.163.136.97                  ;
+www.webmail.personalshadchan.com. IN A      69.163.136.138                 ;
+mail.personalshadchan.com.     IN A      64.90.62.162                   ;
+mail.personalshadchan.com.     IN MX     0 mx1.dreamhost.com.           ;
+mail.personalshadchan.com.     IN MX     0 mx2.dreamhost.com.           ;
+autoconfig.personalshadchan.com. IN CNAME  autoconfig.dreamhost.com       ;
+dreamhost._domainkey.personalshadchan.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlMq4XiMCo+FPRfTd4F2s/4E/pDstiPrugIfX4lOECcRkoT9897uD1TDZfED5cjAt8UKbk2ZVZ0cV6paiaGCf4oTdeFASGemVBcqi95BivXvvGOOEUAdE56h/JpWSbcbRHbFOaEtkUecTHIY13YDS5OWsrsjxYiW1cQOsiNLG7/rtNdco71ER6WhhsjKm0cURr+/g+ZMOYxguaRoLvtXYybSK4jYd57VPWEJqGrJopPYYaz7qoXydZffrD66+4n7IZys3ra1pAlF4i0Vh5et2rn/Mqg4ZVopFNKDSKwonP+REFeyxQTa08tbqHM3RKWbNtsjM+AQyIcUHRVAG4bmyzQIDAQAB ;
+www.personalshadchan.com.      IN CNAME  www116.wixdns.net              ;
+www.mailboxes.personalshadchan.com. IN A      69.163.136.97                  ;
+_dmarc.personalshadchan.com.   IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@personalshadchan.com ;
+#  .................................................. Zone: savingsshield.com ..................................................
+$ORIGIN savingsshield.com
+$TTL 600s
+ssh.savingsshield.com.         IN A      208.97.137.126                 ;
+www.savingsshield.com.         IN A      208.97.137.126                 ;
+savingsshield.com.             IN A      208.97.137.126                 ;
+ftp.savingsshield.com.         IN A      208.97.137.126                 ;
+#  .................................................. Zone: seekrite.co ..................................................
+$ORIGIN seekrite.co
+$TTL 600s
+mailboxes.seekrite.co.         IN A      69.163.136.97                  ;
+_autodiscover._tcp.seekrite.co. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+ftp.seekrite.co.               IN A      208.97.137.126                 ;
+seekrite.co.                   IN A      208.97.137.126                 ;
+seekrite.co.                   IN MX     0 mx1.dreamhost.com.           ;
+seekrite.co.                   IN MX     0 mx2.dreamhost.com.           ;
+seekrite.co.                   IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+webmail.seekrite.co.           IN A      69.163.136.138                 ;
+ssh.seekrite.co.               IN A      208.97.137.126                 ;
+www.mailboxes.seekrite.co.     IN A      69.163.136.97                  ;
+_dmarc.seekrite.co.            IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@seekrite.co ;
+www.seekrite.co.               IN A      208.97.137.126                 ;
+dreamhost._domainkey.seekrite.co. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nO28LgYaY9bFiqnv8NUymyo0vIAN8f/2V3lloXpKDNQMb9l/MYKBCVHsfDHtEZTteSO/EcxoRzjclsqe1oCqTPJD53dnt3bvPJeDNbrcIIEB89doLav0kUwgp88ic6JTQPcXeZxBJaxoghSprNhvVzfGtS4aDVw/N5jm+bSuJ6vEWSIkdqv2opf2jUL+BXmFV4oIDiOib/2YCbTvusaepykaBy7+JgYFZL8D7VrtcmdMmXv6cP0x/VueGGOlNXIR1UjdKTyZVBRdOQEo6/dnyXYH2Lukh1KA+GuT6idSpKKE+FYX0WUmHf09rGcSQnkNyjs+9apofzyb8b+D8J9ZQIDAQAB ;
+autoconfig.seekrite.co.        IN CNAME  autoconfig.dreamhost.com       ;
+mail.seekrite.co.              IN A      64.90.62.162                   ;
+mail.seekrite.co.              IN MX     0 mx1.dreamhost.com.           ;
+mail.seekrite.co.              IN MX     0 mx2.dreamhost.com.           ;
+www.webmail.seekrite.co.       IN A      69.163.136.138                 ;
+#  .................................................. Zone: seekrite.com ..................................................
+$ORIGIN seekrite.com
+$TTL 600s
+_autodiscover._tcp.seekrite.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+search-stage.seekrite.com.     IN A      50.62.141.55                   ;
+mailboxes.seekrite.com.        IN A      69.163.136.97                  ;
+seekrite.com.                  IN A      50.62.141.55                   ;
+seekrite.com.                  IN MX     0 mx1.dreamhost.com.           ;
+seekrite.com.                  IN MX     0 mx2.dreamhost.com.           ;
+seekrite.com.                  IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+webmail.seekrite.com.          IN A      69.163.136.138                 ;
+search.seekrite.com.           IN A      50.62.141.55                   ;
+dreamhost._domainkey.seekrite.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5Mdg73iBFEl8Oz9JwwbD+foEb/MsK9oK1WKmGfJ1H/Dz995+J0QIMQo0iDY7XMR/4Tf7xBtEzGU11VbgB3mwkZKU3qSALKWCSc+SHyImo+foAgQ1XAUQ9315RWxUrZOZnjR+/rqKx5MEMT/JWPq462+RglINwyECppb6dE/XnECcY2KyG72qKfn4vpfHlgSYefO0Yv2PrimuwaK096gXsZixZJYFxACQYs+d1abfXB7FyqmjrIe14ZxQbgkojk9Q5pHtJpTzF/Oa5PnyXtWDpYMlT99iT5fM0SSRQZKMo8D1gkz8hqpjEiNgKFO/oWDQ2nEzzzf+Y35+yzDldBECPQIDAQAB ;
+video.seekrite.com.            IN A      199.187.124.186                ;
+www.seekrite.com.              IN A      50.62.141.55                   ;
+www.mailboxes.seekrite.com.    IN A      69.163.136.97                  ;
+_dmarc.seekrite.com.           IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@seekrite.com ;
+www.webmail.seekrite.com.      IN A      69.163.136.138                 ;
+mail.seekrite.com.             IN A      64.90.62.162                   ;
+mail.seekrite.com.             IN MX     0 mx1.dreamhost.com.           ;
+mail.seekrite.com.             IN MX     0 mx2.dreamhost.com.           ;
+autoconfig.seekrite.com.       IN CNAME  autoconfig.dreamhost.com       ;
+search-app.seekrite.com.       IN A      50.62.141.55                   ;
+#  .................................................. Zone: skipquest.com ..................................................
+$ORIGIN skipquest.com
+$TTL 600s
+www.deck.skipquest.com.        IN A      208.97.137.126                 ;
+www.github.skipquest.com.      IN A      208.97.137.126                 ;
+dreamhost._domainkey.skipquest.com. IN TXT    v=DKIM1; k=rsa; h=sha256;  p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwGjy+xCnvuOySvb+qWouJtvY1TVV6YR+1I9Ojjt1YMs43pIxM+NuXjVakW7zwfmhlQ4B3XTnZ5UDoo1yRoJwzck0KrwFCIKl3DgVpyUvlhr2pDeLEvvLNXq+YlHWvJ5yghniPhpXj1TxTiJCHlVszbxrzcEBk2P1Awz/FAWD7FdDxDlwDirKYY7Nu3eavUvG90DPAAmsq39uXpZIaybcFpjVpiXCDILDeb3Cri8HnQ20aAld0MAeXz8jeDU6JQRKA4rAiPHMgOYmwDXaKRx7WQ/wqxiYGjOIqA+3hVkKb9Gu5Ld47KZ1qL6R0EnijYIf3A+I2zFqOPEomXHb0xtITQIDAQAB ;
+autoconfig.skipquest.com.      IN CNAME  autoconfig.dreamhost.com       ;
+mail.skipquest.com.            IN A      64.90.62.162                   ;
+mail.skipquest.com.            IN MX     0 mx1.mailchannels.net.        ;
+mail.skipquest.com.            IN MX     0 mx2.mailchannels.net.        ;
+www.webmail.skipquest.com.     IN A      69.163.136.138                 ;
+ssh.media.skipquest.com.       IN A      208.97.137.126                 ;
+console.skipquest.com.         IN CNAME  festive-golick-78f678.netlify.app ;
+media.skipquest.com.           IN A      208.97.137.126                 ;
+skipcoin.skipquest.com.        IN A      208.97.137.126                 ;
+ssh.skipcoin.skipquest.com.    IN A      208.97.137.126                 ;
+ftp.github.skipquest.com.      IN A      208.97.137.126                 ;
+webmail.skipquest.com.         IN A      69.163.136.138                 ;
+ftp.deck.skipquest.com.        IN A      208.97.137.126                 ;
+static.skipquest.com.          IN A      34.120.176.72                  ;
+rt.skipquest.com.              IN A      34.138.33.73                   ;
+www.mailboxes.skipquest.com.   IN A      69.163.136.97                  ;
+_dmarc.skipquest.com.          IN TXT    v=DMARC1; p=none; fo=1; rua=mailto:dmarc@skipquest.com ;
+www.skipquest.com.             IN CNAME  www116.wixdns.net              ;
+www.skipcoin.skipquest.com.    IN A      208.97.137.126                 ;
+ftp.media.skipquest.com.       IN A      208.97.137.126                 ;
+core.skipquest.com.            IN A      34.102.224.28                  ;
+www.media.skipquest.com.       IN A      208.97.137.126                 ;
+mailboxes.skipquest.com.       IN A      69.163.136.97                  ;
+_autodiscover._tcp.skipquest.com. IN SRV    5 0 443 autoconfig.dreamhost.com ;
+github.skipquest.com.          IN A      208.97.137.126                 ;
+skipquest.com.                 IN A      23.236.62.147                  ;
+skipquest.com.                 IN MX     0 mx1.mailchannels.net.        ;
+skipquest.com.                 IN MX     0 mx2.mailchannels.net.        ;
+skipquest.com.                 IN TXT    google-site-verification=QkkUsaM1JWyTBTelE17hGDqtsHj2YHU1_q-4pD9yW9U ;
+skipquest.com.                 IN TXT    v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all ;
+deck.skipquest.com.            IN A      208.97.137.126                 ;
+ssh.github.skipquest.com.      IN A      208.97.137.126                 ;
+ftp.skipcoin.skipquest.com.    IN A      208.97.137.126                 ;
+ssh.deck.skipquest.com.        IN A      208.97.137.126                 ;
+#  .................................................. Zone: skipview.com ..................................................
+$ORIGIN skipview.com
+$TTL 600s
+ssh.skipview.com.              IN A      208.97.137.126                 ;
+ftp.skipview.com.              IN A      208.97.137.126                 ;
+skipview.com.                  IN A      208.97.137.126                 ;
+www.skipview.com.              IN A      208.97.137.126                 ;
+#  .................................................. Zone: tvshowsurvey.com ..................................................
+$ORIGIN tvshowsurvey.com
+$TTL 600s
+ssh.tvshowsurvey.com.          IN A      208.97.137.126                 ;
+ftp.tvshowsurvey.com.          IN A      208.97.137.126                 ;
+www.tvshowsurvey.com.          IN A      208.97.137.126                 ;
+tvshowsurvey.com.              IN A      208.97.137.126                 ;
+#  .................................................. Zone: vidadate.com ..................................................
+$ORIGIN vidadate.com
+$TTL 600s
+vidadate.com.                  IN A      23.236.62.147                  ;
+www.vidadate.com.              IN CNAME  www116.wixdns.net              ;
+ssh.meetings.vidadate.com.     IN A      208.97.137.126                 ;
+meetings.vidadate.com.         IN A      208.97.137.126                 ;
+www.meetings.vidadate.com.     IN A      208.97.137.126                 ;
+ftp.meetings.vidadate.com.     IN A      208.97.137.126                 ;
